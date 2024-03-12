@@ -1,0 +1,67 @@
+{% raw %}<pre class="xml" style="white-space: pre; text-wrap: nowrap;"><code class="language-xml" style="white-space: pre; text-wrap: nowrap;">
+
+&lt;<a href="http://hl7.org/fhir/R4B/patient.html#Patient">Patient</a> xmlns=&quot;http://hl7.org/fhir&quot;&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/patient.html#Patient.id">id</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#id">value</a>=&quot;example&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/patient.html#Patient.meta">meta</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/resource.html#Meta#Meta.profile">profile</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#canonical">value</a>=&quot;http://hl7.org/fhir/StructureDefinition/Patient&quot;/&gt;
+  &lt;/meta&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/patient.html#Patient.text">text</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/narrative.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
+    &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;p style=&quot;border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;&quot;&gt;&lt;b&gt;Amy V. Baxter &lt;/b&gt; female, DoB: 1987-02-20&lt;/p&gt;&lt;hr/&gt;&lt;table class=&quot;grid&quot;&gt;&lt;tr&gt;&lt;td style=&quot;background-color: #f3f5da&quot; title=&quot;Record is active&quot;&gt;Active:&lt;/td&gt;&lt;td&gt;false&lt;/td&gt;&lt;td style=&quot;background-color: #f3f5da&quot; title=&quot;Known status of Patient&quot;&gt;Deceased:&lt;/td&gt;&lt;td colspan=&quot;3&quot;&gt;true&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;background-color: #f3f5da&quot; title=&quot;Alternate names (see the one above)&quot;&gt;Alt. Name:&lt;/td&gt;&lt;td colspan=&quot;3&quot;&gt;Amy V. Shaw (OLD)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;background-color: #f3f5da&quot; title=&quot;Ways to contact the Patient&quot;&gt;Contact Details:&lt;/td&gt;&lt;td colspan=&quot;3&quot;&gt;&lt;ul&gt;&lt;li&gt;ph: 555-555-5555(HOME)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;mailto:amy.shaw@example.com&quot;&gt;amy.shaw@example.com&lt;/a&gt;&lt;/li&gt;&lt;li&gt;49 MEADOW ST MOUNDS OK 74047 US (OLD)&lt;/li&gt;&lt;li&gt;183 MOUNTAIN VIEW ST MOUNDS OK 74048 US &lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+  &lt;/text&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/patient.html#Patient.active">active</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/patient.html#Patient.name">name</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/datatypes.html#HumanName#HumanName.use">use</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;old&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/datatypes.html#HumanName#HumanName.family">family</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Shaw&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/datatypes.html#HumanName#HumanName.given">given</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Amy&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/datatypes.html#HumanName#HumanName.given">given</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;V.&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/datatypes.html#HumanName#HumanName.period">period</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4B/datatypes.html#Period#Period.start">start</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#dateTime">value</a>=&quot;2016-12-06&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4B/datatypes.html#Period#Period.end">end</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#dateTime">value</a>=&quot;2020-07-22&quot;/&gt;
+    &lt;/period&gt;
+  &lt;/name&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/patient.html#Patient.name">name</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/datatypes.html#HumanName#HumanName.family">family</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Baxter&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/datatypes.html#HumanName#HumanName.given">given</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Amy&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/datatypes.html#HumanName#HumanName.given">given</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;V.&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/datatypes.html#HumanName#HumanName.suffix">suffix</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;PharmD&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/datatypes.html#HumanName#HumanName.period">period</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4B/datatypes.html#Period#Period.start">start</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#dateTime">value</a>=&quot;2020-07-22&quot;/&gt;
+    &lt;/period&gt;
+  &lt;/name&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/patient.html#Patient.telecom">telecom</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/datatypes.html#ContactPoint#ContactPoint.system">system</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;phone&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/datatypes.html#ContactPoint#ContactPoint.value">value</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;555-555-5555&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/datatypes.html#ContactPoint#ContactPoint.use">use</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;home&quot;/&gt;
+  &lt;/telecom&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/patient.html#Patient.telecom">telecom</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/datatypes.html#ContactPoint#ContactPoint.system">system</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;email&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/datatypes.html#ContactPoint#ContactPoint.value">value</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;amy.shaw@example.com&quot;/&gt;
+  &lt;/telecom&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/patient.html#Patient.gender">gender</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;female&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/patient.html#Patient.birthDate">birthDate</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#date">value</a>=&quot;1987-02-20&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/patient.html#Patient.deceased[x]">deceasedBoolean</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/patient.html#Patient.address">address</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/datatypes.html#Address#Address.use">use</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;old&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/datatypes.html#Address#Address.line">line</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;49 MEADOW ST&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/datatypes.html#Address#Address.city">city</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;MOUNDS&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/datatypes.html#Address#Address.state">state</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;OK&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/datatypes.html#Address#Address.postalCode">postalCode</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;74047&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/datatypes.html#Address#Address.country">country</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;US&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/datatypes.html#Address#Address.period">period</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4B/datatypes.html#Period#Period.start">start</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#dateTime">value</a>=&quot;2016-12-06&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4B/datatypes.html#Period#Period.end">end</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#dateTime">value</a>=&quot;2020-07-22&quot;/&gt;
+    &lt;/period&gt;
+  &lt;/address&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/patient.html#Patient.address">address</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/datatypes.html#Address#Address.line">line</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;183 MOUNTAIN VIEW ST&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/datatypes.html#Address#Address.city">city</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;MOUNDS&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/datatypes.html#Address#Address.state">state</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;OK&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/datatypes.html#Address#Address.postalCode">postalCode</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;74048&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/datatypes.html#Address#Address.country">country</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;US&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/datatypes.html#Address#Address.period">period</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4B/datatypes.html#Period#Period.start">start</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#dateTime">value</a>=&quot;2020-07-22&quot;/&gt;
+    &lt;/period&gt;
+  &lt;/address&gt;
+&lt;/Patient&gt;</code></pre>
+{% endraw %}

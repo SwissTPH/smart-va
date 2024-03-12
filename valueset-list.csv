@@ -1,0 +1,5 @@
+URL,Version,Status,OIDs,Name,Title,Descriptino,Uses,Used,Sources
+http://smartva.org/fhir/ValueSet/smart-va-level-of-education-valueset,0.1.0,draft,,SMARTVALevelofEducationVS,SMART Verbal Autopsy Level of Education ValueSet,"This ValueSet contains values related to the SMART Verbal Autopsy level of education of the decseaed person.",,"Internal"
+http://smartva.org/fhir/ValueSets/smart-va-weathers-seasons-vs,0.1.0,draft,,SMARTVAWeatherSeasonsVS,SMART Verbal Autopsy Weather Seasons ValueSet,"SMART Verbal Autopsy valueset for describing weather seasons",,"Internal"
+https://smartva.org/fhir/ValueSet/smart-va-hiv-mortality-region-vs,0.1.0,draft,,SMARTVAHIVMortalityRegionVS,SMART VA HIV Mortality Region Value Set,"SMART VA HIV Mortality Region Value Set to capture HIV prevelance of a location",,"Internal"
+https://smartva.org/fhir/ValueSet/smart-va-malaria-mortality-region-vs,0.1.0,draft,,SMARTVAMalarioMortalityRegionVS,SMART Va Malaria Mortality Region ValueSet,"ValueSet to capture the region Malaria mortality prevelance for SMART verbal autopsy",,"Internal"

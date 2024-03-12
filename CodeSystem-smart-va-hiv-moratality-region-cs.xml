@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="smart-va-hiv-moratality-region-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This  code system <code>http://smartva.org/fhir/CodingSystem/smart-va-hiv-moratality-region-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">h<a name="smart-va-hiv-moratality-region-cs-h"> </a></td><td>High prevalence of HIV</td></tr><tr><td style="white-space:nowrap">l<a name="smart-va-hiv-moratality-region-cs-l"> </a></td><td>Low prevalence of HIV</td></tr><tr><td style="white-space:nowrap">v<a name="smart-va-hiv-moratality-region-cs-v"> </a></td><td>Very low prevalence of HIV</td></tr></table></div>
+  </text>
+  <url value="http://smartva.org/fhir/CodingSystem/smart-va-hiv-moratality-region-cs"/>
+  <version value="0.1.0"/>
+  <name value="SMARTVAHIVMoratalityRegionCS"/>
+  <title value="SMART VA HIV Mortalirty Region Code System"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2024-03-12T15:30:39+01:00"/>
+  <publisher value="CDC"/>
+  <contact>
+    <name value="CDC"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://cdc.gov"/>
+    </telecom>
+  </contact>
+  <description value="HIV mortaliry prevelance CodeSystem for the SMART verbal autopsy guideline"/>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="h"/>
+    <display value="High prevalence of HIV"/>
+  </concept>
+  <concept>
+    <code value="l"/>
+    <display value="Low prevalence of HIV"/>
+  </concept>
+  <concept>
+    <code value="v"/>
+    <display value="Very low prevalence of HIV"/>
+  </concept>
+</CodeSystem>

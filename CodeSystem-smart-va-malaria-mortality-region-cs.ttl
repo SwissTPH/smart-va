@@ -1,0 +1,45 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://smartva.org/CodeSystem/smart-va-malaria-mortality-region-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "smart-va-malaria-mortality-region-cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>http://smartva.org/fhir/CodeSystem/smart-va-malaria-mortality-region-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">h<a name=\"smart-va-malaria-mortality-region-cs-h\"> </a></td><td>High level of malaria prevelance</td></tr><tr><td style=\"white-space:nowrap\">l<a name=\"smart-va-malaria-mortality-region-cs-l\"> </a></td><td>Low level of malaria prevelance</td></tr><tr><td style=\"white-space:nowrap\">v<a name=\"smart-va-malaria-mortality-region-cs-v\"> </a></td><td>Very low level of malaria prevelance</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://smartva.org/fhir/CodeSystem/smart-va-malaria-mortality-region-cs"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "SMARTVAMalariaMortalityRegionCS"] ; # 
+  fhir:title [ fhir:v "SMARTVA Malaria Mortality Region Code System"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2024-03-12T15:30:39+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "CDC"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "CDC" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://cdc.gov" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Code system for the malaria prevelance of region where the death occurred"] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "3"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "h" ] ;
+     fhir:display [ fhir:v "High level of malaria prevelance" ]
+  ] [
+     fhir:code [ fhir:v "l" ] ;
+     fhir:display [ fhir:v "Low level of malaria prevelance" ]
+  ] [
+     fhir:code [ fhir:v "v" ] ;
+     fhir:display [ fhir:v "Very low level of malaria prevelance" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

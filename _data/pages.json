@@ -1,0 +1,774 @@
+{
+  "toc.html" : {
+    "title" : "Table of Contents",
+    "label" : "0.0",
+    "breadcrumb" : "<li><b>Table of Contents</b></li>",
+    "next" : "index.html"
+  },
+  "index.html" : {
+    "title" : "Home",
+    "label" : "1.0",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Home</b></li>",
+    "previous" : "toc.html",
+    "next" : "changes.html"
+  },
+  "changes.html" : {
+    "title" : "Changes",
+    "label" : "1.1",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='index.html'><b>Home</b></a></li><li><b>Changes</b></li>",
+    "previous" : "index.html",
+    "next" : "dependencies.html"
+  },
+  "dependencies.html" : {
+    "title" : "Dependencies",
+    "label" : "1.2",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='index.html'><b>Home</b></a></li><li><b>Dependencies</b></li>",
+    "previous" : "changes.html",
+    "next" : "references.html"
+  },
+  "references.html" : {
+    "title" : "References",
+    "label" : "1.3",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='index.html'><b>Home</b></a></li><li><b>References</b></li>",
+    "previous" : "dependencies.html",
+    "next" : "adapting.html"
+  },
+  "adapting.html" : {
+    "title" : "Adapting Guidelines for Country use",
+    "label" : "1.4",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='index.html'><b>Home</b></a></li><li><b>Adapting Guidelines for Country use</b></li>",
+    "previous" : "references.html",
+    "next" : "license.html"
+  },
+  "license.html" : {
+    "title" : "License",
+    "label" : "1.5",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='index.html'><b>Home</b></a></li><li><b>License</b></li>",
+    "previous" : "adapting.html",
+    "next" : "business-requirements.html"
+  },
+  "business-requirements.html" : {
+    "title" : "Business Requirements",
+    "label" : "2.0",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Business Requirements</b></li>",
+    "previous" : "license.html",
+    "next" : "concepts.html"
+  },
+  "concepts.html" : {
+    "title" : "Concepts",
+    "label" : "2.1",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='business-requirements.html'><b>Business Requirements</b></a></li><li><b>Concepts</b></li>",
+    "previous" : "business-requirements.html",
+    "next" : "personas.html"
+  },
+  "personas.html" : {
+    "title" : "Generic Personas",
+    "label" : "2.2",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='business-requirements.html'><b>Business Requirements</b></a></li><li><b>Generic Personas</b></li>",
+    "previous" : "concepts.html",
+    "next" : "scenarios.html"
+  },
+  "scenarios.html" : {
+    "title" : "User Scenarios",
+    "label" : "2.3",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='business-requirements.html'><b>Business Requirements</b></a></li><li><b>User Scenarios</b></li>",
+    "previous" : "personas.html",
+    "next" : "business-processes.html"
+  },
+  "business-processes.html" : {
+    "title" : "Business Processes",
+    "label" : "2.4",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='business-requirements.html'><b>Business Requirements</b></a></li><li><b>Business Processes</b></li>",
+    "previous" : "scenarios.html",
+    "next" : "dictionary.html"
+  },
+  "dictionary.html" : {
+    "title" : "Data Dictionary",
+    "label" : "2.5",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='business-requirements.html'><b>Business Requirements</b></a></li><li><b>Data Dictionary</b></li>",
+    "previous" : "business-processes.html",
+    "next" : "decision-logic.html"
+  },
+  "decision-logic.html" : {
+    "title" : "Decision-support logic",
+    "label" : "2.6",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='business-requirements.html'><b>Business Requirements</b></a></li><li><b>Decision-support logic</b></li>",
+    "previous" : "dictionary.html",
+    "next" : "indicators.html"
+  },
+  "indicators.html" : {
+    "title" : "Indicator and Performance Metrics",
+    "label" : "2.7",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='business-requirements.html'><b>Business Requirements</b></a></li><li><b>Indicator and Performance Metrics</b></li>",
+    "previous" : "decision-logic.html",
+    "next" : "functional-requirements.html"
+  },
+  "functional-requirements.html" : {
+    "title" : "Functional Requirements",
+    "label" : "2.8",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='business-requirements.html'><b>Business Requirements</b></a></li><li><b>Functional Requirements</b></li>",
+    "previous" : "indicators.html",
+    "next" : "non-functional-requirements.html"
+  },
+  "non-functional-requirements.html" : {
+    "title" : "Non-functional Requirements",
+    "label" : "2.9",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='business-requirements.html'><b>Business Requirements</b></a></li><li><b>Non-functional Requirements</b></li>",
+    "previous" : "functional-requirements.html",
+    "next" : "data-models-and-exchange.html"
+  },
+  "data-models-and-exchange.html" : {
+    "title" : "Data Models and Exchange",
+    "label" : "3.0",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Data Models and Exchange</b></li>",
+    "previous" : "non-functional-requirements.html",
+    "next" : "system-actors.html"
+  },
+  "system-actors.html" : {
+    "title" : "System Actors",
+    "label" : "3.1",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='data-models-and-exchange.html'><b>Data Models and Exchange</b></a></li><li><b>System Actors</b></li>",
+    "previous" : "data-models-and-exchange.html",
+    "next" : "sequence-diagrams.html"
+  },
+  "sequence-diagrams.html" : {
+    "title" : "Sequence Diagrams",
+    "label" : "3.2",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='data-models-and-exchange.html'><b>Data Models and Exchange</b></a></li><li><b>Sequence Diagrams</b></li>",
+    "previous" : "system-actors.html",
+    "next" : "transactions.html"
+  },
+  "transactions.html" : {
+    "title" : "Transactions",
+    "label" : "3.3",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='data-models-and-exchange.html'><b>Data Models and Exchange</b></a></li><li><b>Transactions</b></li>",
+    "previous" : "sequence-diagrams.html",
+    "next" : "indicators-measures.html"
+  },
+  "indicators-measures.html" : {
+    "title" : "Indicators and Measures",
+    "label" : "3.4",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='data-models-and-exchange.html'><b>Data Models and Exchange</b></a></li><li><b>Indicators and Measures</b></li>",
+    "previous" : "transactions.html",
+    "next" : "codings.html"
+  },
+  "codings.html" : {
+    "title" : "Codings",
+    "label" : "3.5",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='data-models-and-exchange.html'><b>Data Models and Exchange</b></a></li><li><b>Codings</b></li>",
+    "previous" : "indicators-measures.html",
+    "next" : "deployment.html"
+  },
+  "deployment.html" : {
+    "title" : "Deployment",
+    "label" : "4.0",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Deployment</b></li>",
+    "previous" : "codings.html",
+    "next" : "security-privacy.html"
+  },
+  "security-privacy.html" : {
+    "title" : "Security and Privacy Considerations",
+    "label" : "4.1",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='deployment.html'><b>Deployment</b></a></li><li><b>Security and Privacy Considerations</b></li>",
+    "previous" : "deployment.html",
+    "next" : "testing.html"
+  },
+  "testing.html" : {
+    "title" : "Testing",
+    "label" : "4.2",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='deployment.html'><b>Deployment</b></a></li><li><b>Testing</b></li>",
+    "previous" : "security-privacy.html",
+    "next" : "test-data.html"
+  },
+  "test-data.html" : {
+    "title" : "Test Data",
+    "label" : "4.3",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='deployment.html'><b>Deployment</b></a></li><li><b>Test Data</b></li>",
+    "previous" : "testing.html",
+    "next" : "reference-implementations.html"
+  },
+  "reference-implementations.html" : {
+    "title" : "Reference Implementations",
+    "label" : "4.4",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='deployment.html'><b>Deployment</b></a></li><li><b>Reference Implementations</b></li>",
+    "previous" : "test-data.html",
+    "next" : "trust_domain.html"
+  },
+  "trust_domain.html" : {
+    "title" : "Trust Domains",
+    "label" : "4.5",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='deployment.html'><b>Deployment</b></a></li><li><b>Trust Domains</b></li>",
+    "previous" : "reference-implementations.html",
+    "next" : "downloads.html"
+  },
+  "downloads.html" : {
+    "title" : "Downloads",
+    "label" : "4.6",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='deployment.html'><b>Deployment</b></a></li><li><b>Downloads</b></li>",
+    "previous" : "trust_domain.html",
+    "next" : "indices.html"
+  },
+  "indices.html" : {
+    "title" : "Indices",
+    "label" : "5.0",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Indices</b></li>",
+    "previous" : "downloads.html",
+    "next" : "artifacts.html"
+  },
+  "artifacts.html" : {
+    "title" : "Artifact Index",
+    "label" : "5.1.0",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><b>Artifact Index</b></li>",
+    "previous" : "indices.html",
+    "next" : "StructureDefinition-va-location.html"
+  },
+  "StructureDefinition-va-location.html" : {
+    "title" : "SMART VA Location Profile",
+    "label" : "5.1.1",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><a href='artifacts.html'><b>Artifact Index</b></a></li><li><b>SMART VA Location Profile</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "artifacts.html",
+    "next" : "StructureDefinition-va-location-definitions.html"
+  },
+  "StructureDefinition-va-location-definitions.html" : {
+    "title" : "SMART VA Location Profile - Definitions",
+    "label" : "5.1.1",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><a href='artifacts.html'><b>Artifact Index</b></a></li><li><b>SMART VA Location Profile</b></li>",
+    "previous" : "StructureDefinition-va-location.html",
+    "next" : "StructureDefinition-va-location-mappings.html"
+  },
+  "StructureDefinition-va-location-mappings.html" : {
+    "title" : "SMART VA Location Profile - Mappings",
+    "label" : "5.1.1",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><a href='artifacts.html'><b>Artifact Index</b></a></li><li><b>SMART VA Location Profile</b></li>",
+    "previous" : "StructureDefinition-va-location-definitions.html",
+    "next" : "StructureDefinition-va-location-testing.html"
+  },
+  "StructureDefinition-va-location-testing.html" : {
+    "title" : "SMART VA Location Profile - Testing",
+    "label" : "5.1.1",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><a href='artifacts.html'><b>Artifact Index</b></a></li><li><b>SMART VA Location Profile</b></li>",
+    "previous" : "StructureDefinition-va-location-mappings.html",
+    "next" : "StructureDefinition-va-location.profile.xml.html"
+  },
+  "StructureDefinition-va-location.profile.xml.html" : {
+    "title" : "SMART VA Location Profile - XML Representation",
+    "label" : "5.1.1",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><a href='artifacts.html'><b>Artifact Index</b></a></li><li><b>SMART VA Location Profile</b></li>",
+    "previous" : "StructureDefinition-va-location-testing.html",
+    "next" : "StructureDefinition-va-location.profile.json.html"
+  },
+  "StructureDefinition-va-location.profile.json.html" : {
+    "title" : "SMART VA Location Profile - JSON Representation",
+    "label" : "5.1.1",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><a href='artifacts.html'><b>Artifact Index</b></a></li><li><b>SMART VA Location Profile</b></li>",
+    "previous" : "StructureDefinition-va-location.profile.xml.html",
+    "next" : "StructureDefinition-va-location.profile.ttl.html"
+  },
+  "StructureDefinition-va-location.profile.ttl.html" : {
+    "title" : "SMART VA Location Profile - TTL Representation",
+    "label" : "5.1.1",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><a href='artifacts.html'><b>Artifact Index</b></a></li><li><b>SMART VA Location Profile</b></li>",
+    "previous" : "StructureDefinition-va-location.profile.json.html",
+    "next" : "StructureDefinition-va-patient.html"
+  },
+  "StructureDefinition-va-patient.html" : {
+    "title" : "Verbal Autopsy Patient",
+    "label" : "5.1.2",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><a href='artifacts.html'><b>Artifact Index</b></a></li><li><b>Verbal Autopsy Patient</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "StructureDefinition-va-location.profile.ttl.html",
+    "next" : "StructureDefinition-va-patient-definitions.html"
+  },
+  "StructureDefinition-va-patient-definitions.html" : {
+    "title" : "Verbal Autopsy Patient - Definitions",
+    "label" : "5.1.2",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><a href='artifacts.html'><b>Artifact Index</b></a></li><li><b>Verbal Autopsy Patient</b></li>",
+    "previous" : "StructureDefinition-va-patient.html",
+    "next" : "StructureDefinition-va-patient-mappings.html"
+  },
+  "StructureDefinition-va-patient-mappings.html" : {
+    "title" : "Verbal Autopsy Patient - Mappings",
+    "label" : "5.1.2",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><a href='artifacts.html'><b>Artifact Index</b></a></li><li><b>Verbal Autopsy Patient</b></li>",
+    "previous" : "StructureDefinition-va-patient-definitions.html",
+    "next" : "StructureDefinition-va-patient-testing.html"
+  },
+  "StructureDefinition-va-patient-testing.html" : {
+    "title" : "Verbal Autopsy Patient - Testing",
+    "label" : "5.1.2",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><a href='artifacts.html'><b>Artifact Index</b></a></li><li><b>Verbal Autopsy Patient</b></li>",
+    "previous" : "StructureDefinition-va-patient-mappings.html",
+    "next" : "StructureDefinition-va-patient.profile.xml.html"
+  },
+  "StructureDefinition-va-patient.profile.xml.html" : {
+    "title" : "Verbal Autopsy Patient - XML Representation",
+    "label" : "5.1.2",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><a href='artifacts.html'><b>Artifact Index</b></a></li><li><b>Verbal Autopsy Patient</b></li>",
+    "previous" : "StructureDefinition-va-patient-testing.html",
+    "next" : "StructureDefinition-va-patient.profile.json.html"
+  },
+  "StructureDefinition-va-patient.profile.json.html" : {
+    "title" : "Verbal Autopsy Patient - JSON Representation",
+    "label" : "5.1.2",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><a href='artifacts.html'><b>Artifact Index</b></a></li><li><b>Verbal Autopsy Patient</b></li>",
+    "previous" : "StructureDefinition-va-patient.profile.xml.html",
+    "next" : "StructureDefinition-va-patient.profile.ttl.html"
+  },
+  "StructureDefinition-va-patient.profile.ttl.html" : {
+    "title" : "Verbal Autopsy Patient - TTL Representation",
+    "label" : "5.1.2",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><a href='artifacts.html'><b>Artifact Index</b></a></li><li><b>Verbal Autopsy Patient</b></li>",
+    "previous" : "StructureDefinition-va-patient.profile.json.html",
+    "next" : "StructureDefinition-smart-va-level-of-education-ext.html"
+  },
+  "StructureDefinition-smart-va-level-of-education-ext.html" : {
+    "title" : "SMART VA Patient Level of Education Extension",
+    "label" : "5.1.3",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><a href='artifacts.html'><b>Artifact Index</b></a></li><li><b>SMART VA Patient Level of Education Extension</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "StructureDefinition-va-patient.profile.ttl.html",
+    "next" : "StructureDefinition-smart-va-level-of-education-ext-definitions.html"
+  },
+  "StructureDefinition-smart-va-level-of-education-ext-definitions.html" : {
+    "title" : "SMART VA Patient Level of Education Extension - Definitions",
+    "label" : "5.1.3",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><a href='artifacts.html'><b>Artifact Index</b></a></li><li><b>SMART VA Patient Level of Education Extension</b></li>",
+    "previous" : "StructureDefinition-smart-va-level-of-education-ext.html",
+    "next" : "StructureDefinition-smart-va-level-of-education-ext-mappings.html"
+  },
+  "StructureDefinition-smart-va-level-of-education-ext-mappings.html" : {
+    "title" : "SMART VA Patient Level of Education Extension - Mappings",
+    "label" : "5.1.3",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><a href='artifacts.html'><b>Artifact Index</b></a></li><li><b>SMART VA Patient Level of Education Extension</b></li>",
+    "previous" : "StructureDefinition-smart-va-level-of-education-ext-definitions.html",
+    "next" : "StructureDefinition-smart-va-level-of-education-ext-testing.html"
+  },
+  "StructureDefinition-smart-va-level-of-education-ext-testing.html" : {
+    "title" : "SMART VA Patient Level of Education Extension - Testing",
+    "label" : "5.1.3",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><a href='artifacts.html'><b>Artifact Index</b></a></li><li><b>SMART VA Patient Level of Education Extension</b></li>",
+    "previous" : "StructureDefinition-smart-va-level-of-education-ext-mappings.html",
+    "next" : "StructureDefinition-smart-va-level-of-education-ext.profile.xml.html"
+  },
+  "StructureDefinition-smart-va-level-of-education-ext.profile.xml.html" : {
+    "title" : "SMART VA Patient Level of Education Extension - XML Representation",
+    "label" : "5.1.3",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><a href='artifacts.html'><b>Artifact Index</b></a></li><li><b>SMART VA Patient Level of Education Extension</b></li>",
+    "previous" : "StructureDefinition-smart-va-level-of-education-ext-testing.html",
+    "next" : "StructureDefinition-smart-va-level-of-education-ext.profile.json.html"
+  },
+  "StructureDefinition-smart-va-level-of-education-ext.profile.json.html" : {
+    "title" : "SMART VA Patient Level of Education Extension - JSON Representation",
+    "label" : "5.1.3",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><a href='artifacts.html'><b>Artifact Index</b></a></li><li><b>SMART VA Patient Level of Education Extension</b></li>",
+    "previous" : "StructureDefinition-smart-va-level-of-education-ext.profile.xml.html",
+    "next" : "StructureDefinition-smart-va-level-of-education-ext.profile.ttl.html"
+  },
+  "StructureDefinition-smart-va-level-of-education-ext.profile.ttl.html" : {
+    "title" : "SMART VA Patient Level of Education Extension - TTL Representation",
+    "label" : "5.1.3",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><a href='artifacts.html'><b>Artifact Index</b></a></li><li><b>SMART VA Patient Level of Education Extension</b></li>",
+    "previous" : "StructureDefinition-smart-va-level-of-education-ext.profile.json.html",
+    "next" : "StructureDefinition-smart-va-weather-season-ext.html"
+  },
+  "StructureDefinition-smart-va-weather-season-ext.html" : {
+    "title" : "SMART VA Weather Season Extension",
+    "label" : "5.1.4",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><a href='artifacts.html'><b>Artifact Index</b></a></li><li><b>SMART VA Weather Season Extension</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "StructureDefinition-smart-va-level-of-education-ext.profile.ttl.html",
+    "next" : "StructureDefinition-smart-va-weather-season-ext-definitions.html"
+  },
+  "StructureDefinition-smart-va-weather-season-ext-definitions.html" : {
+    "title" : "SMART VA Weather Season Extension - Definitions",
+    "label" : "5.1.4",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><a href='artifacts.html'><b>Artifact Index</b></a></li><li><b>SMART VA Weather Season Extension</b></li>",
+    "previous" : "StructureDefinition-smart-va-weather-season-ext.html",
+    "next" : "StructureDefinition-smart-va-weather-season-ext-mappings.html"
+  },
+  "StructureDefinition-smart-va-weather-season-ext-mappings.html" : {
+    "title" : "SMART VA Weather Season Extension - Mappings",
+    "label" : "5.1.4",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><a href='artifacts.html'><b>Artifact Index</b></a></li><li><b>SMART VA Weather Season Extension</b></li>",
+    "previous" : "StructureDefinition-smart-va-weather-season-ext-definitions.html",
+    "next" : "StructureDefinition-smart-va-weather-season-ext-testing.html"
+  },
+  "StructureDefinition-smart-va-weather-season-ext-testing.html" : {
+    "title" : "SMART VA Weather Season Extension - Testing",
+    "label" : "5.1.4",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><a href='artifacts.html'><b>Artifact Index</b></a></li><li><b>SMART VA Weather Season Extension</b></li>",
+    "previous" : "StructureDefinition-smart-va-weather-season-ext-mappings.html",
+    "next" : "StructureDefinition-smart-va-weather-season-ext.profile.xml.html"
+  },
+  "StructureDefinition-smart-va-weather-season-ext.profile.xml.html" : {
+    "title" : "SMART VA Weather Season Extension - XML Representation",
+    "label" : "5.1.4",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><a href='artifacts.html'><b>Artifact Index</b></a></li><li><b>SMART VA Weather Season Extension</b></li>",
+    "previous" : "StructureDefinition-smart-va-weather-season-ext-testing.html",
+    "next" : "StructureDefinition-smart-va-weather-season-ext.profile.json.html"
+  },
+  "StructureDefinition-smart-va-weather-season-ext.profile.json.html" : {
+    "title" : "SMART VA Weather Season Extension - JSON Representation",
+    "label" : "5.1.4",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><a href='artifacts.html'><b>Artifact Index</b></a></li><li><b>SMART VA Weather Season Extension</b></li>",
+    "previous" : "StructureDefinition-smart-va-weather-season-ext.profile.xml.html",
+    "next" : "StructureDefinition-smart-va-weather-season-ext.profile.ttl.html"
+  },
+  "StructureDefinition-smart-va-weather-season-ext.profile.ttl.html" : {
+    "title" : "SMART VA Weather Season Extension - TTL Representation",
+    "label" : "5.1.4",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><a href='artifacts.html'><b>Artifact Index</b></a></li><li><b>SMART VA Weather Season Extension</b></li>",
+    "previous" : "StructureDefinition-smart-va-weather-season-ext.profile.json.html",
+    "next" : "ValueSet-smart-va-hiv-mortality-region-vs.html"
+  },
+  "ValueSet-smart-va-hiv-mortality-region-vs.html" : {
+    "title" : "SMART VA HIV Mortality Region Value Set",
+    "label" : "5.1.5",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><a href='artifacts.html'><b>Artifact Index</b></a></li><li><b>SMART VA HIV Mortality Region Value Set</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "StructureDefinition-smart-va-weather-season-ext.profile.ttl.html",
+    "next" : "ValueSet-smart-va-hiv-mortality-region-vs-testing.html"
+  },
+  "ValueSet-smart-va-hiv-mortality-region-vs-testing.html" : {
+    "title" : "SMART VA HIV Mortality Region Value Set - Testing",
+    "label" : "5.1.5",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><a href='artifacts.html'><b>Artifact Index</b></a></li><li><b>SMART VA HIV Mortality Region Value Set</b></li>",
+    "previous" : "ValueSet-smart-va-hiv-mortality-region-vs.html",
+    "next" : "ValueSet-smart-va-hiv-mortality-region-vs.xml.html"
+  },
+  "ValueSet-smart-va-hiv-mortality-region-vs.xml.html" : {
+    "title" : "SMART VA HIV Mortality Region Value Set - XML Representation",
+    "label" : "5.1.5",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><a href='artifacts.html'><b>Artifact Index</b></a></li><li><b>SMART VA HIV Mortality Region Value Set</b></li>",
+    "previous" : "ValueSet-smart-va-hiv-mortality-region-vs-testing.html",
+    "next" : "ValueSet-smart-va-hiv-mortality-region-vs.json.html"
+  },
+  "ValueSet-smart-va-hiv-mortality-region-vs.json.html" : {
+    "title" : "SMART VA HIV Mortality Region Value Set - JSON Representation",
+    "label" : "5.1.5",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><a href='artifacts.html'><b>Artifact Index</b></a></li><li><b>SMART VA HIV Mortality Region Value Set</b></li>",
+    "previous" : "ValueSet-smart-va-hiv-mortality-region-vs.xml.html",
+    "next" : "ValueSet-smart-va-hiv-mortality-region-vs.ttl.html"
+  },
+  "ValueSet-smart-va-hiv-mortality-region-vs.ttl.html" : {
+    "title" : "SMART VA HIV Mortality Region Value Set - TTL Representation",
+    "label" : "5.1.5",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><a href='artifacts.html'><b>Artifact Index</b></a></li><li><b>SMART VA HIV Mortality Region Value Set</b></li>",
+    "previous" : "ValueSet-smart-va-hiv-mortality-region-vs.json.html",
+    "next" : "ValueSet-smart-va-malaria-mortality-region-vs.html"
+  },
+  "ValueSet-smart-va-malaria-mortality-region-vs.html" : {
+    "title" : "SMART Va Malaria Mortality Region ValueSet",
+    "label" : "5.1.6",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><a href='artifacts.html'><b>Artifact Index</b></a></li><li><b>SMART Va Malaria Mortality Region ValueSet</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "ValueSet-smart-va-hiv-mortality-region-vs.ttl.html",
+    "next" : "ValueSet-smart-va-malaria-mortality-region-vs-testing.html"
+  },
+  "ValueSet-smart-va-malaria-mortality-region-vs-testing.html" : {
+    "title" : "SMART Va Malaria Mortality Region ValueSet - Testing",
+    "label" : "5.1.6",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><a href='artifacts.html'><b>Artifact Index</b></a></li><li><b>SMART Va Malaria Mortality Region ValueSet</b></li>",
+    "previous" : "ValueSet-smart-va-malaria-mortality-region-vs.html",
+    "next" : "ValueSet-smart-va-malaria-mortality-region-vs.xml.html"
+  },
+  "ValueSet-smart-va-malaria-mortality-region-vs.xml.html" : {
+    "title" : "SMART Va Malaria Mortality Region ValueSet - XML Representation",
+    "label" : "5.1.6",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><a href='artifacts.html'><b>Artifact Index</b></a></li><li><b>SMART Va Malaria Mortality Region ValueSet</b></li>",
+    "previous" : "ValueSet-smart-va-malaria-mortality-region-vs-testing.html",
+    "next" : "ValueSet-smart-va-malaria-mortality-region-vs.json.html"
+  },
+  "ValueSet-smart-va-malaria-mortality-region-vs.json.html" : {
+    "title" : "SMART Va Malaria Mortality Region ValueSet - JSON Representation",
+    "label" : "5.1.6",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><a href='artifacts.html'><b>Artifact Index</b></a></li><li><b>SMART Va Malaria Mortality Region ValueSet</b></li>",
+    "previous" : "ValueSet-smart-va-malaria-mortality-region-vs.xml.html",
+    "next" : "ValueSet-smart-va-malaria-mortality-region-vs.ttl.html"
+  },
+  "ValueSet-smart-va-malaria-mortality-region-vs.ttl.html" : {
+    "title" : "SMART Va Malaria Mortality Region ValueSet - TTL Representation",
+    "label" : "5.1.6",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><a href='artifacts.html'><b>Artifact Index</b></a></li><li><b>SMART Va Malaria Mortality Region ValueSet</b></li>",
+    "previous" : "ValueSet-smart-va-malaria-mortality-region-vs.json.html",
+    "next" : "ValueSet-smart-va-level-of-education-valueset.html"
+  },
+  "ValueSet-smart-va-level-of-education-valueset.html" : {
+    "title" : "SMART Verbal Autopsy Level of Education ValueSet",
+    "label" : "5.1.7",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><a href='artifacts.html'><b>Artifact Index</b></a></li><li><b>SMART Verbal Autopsy Level of Education ValueSet</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "ValueSet-smart-va-malaria-mortality-region-vs.ttl.html",
+    "next" : "ValueSet-smart-va-level-of-education-valueset-testing.html"
+  },
+  "ValueSet-smart-va-level-of-education-valueset-testing.html" : {
+    "title" : "SMART Verbal Autopsy Level of Education ValueSet - Testing",
+    "label" : "5.1.7",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><a href='artifacts.html'><b>Artifact Index</b></a></li><li><b>SMART Verbal Autopsy Level of Education ValueSet</b></li>",
+    "previous" : "ValueSet-smart-va-level-of-education-valueset.html",
+    "next" : "ValueSet-smart-va-level-of-education-valueset.xml.html"
+  },
+  "ValueSet-smart-va-level-of-education-valueset.xml.html" : {
+    "title" : "SMART Verbal Autopsy Level of Education ValueSet - XML Representation",
+    "label" : "5.1.7",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><a href='artifacts.html'><b>Artifact Index</b></a></li><li><b>SMART Verbal Autopsy Level of Education ValueSet</b></li>",
+    "previous" : "ValueSet-smart-va-level-of-education-valueset-testing.html",
+    "next" : "ValueSet-smart-va-level-of-education-valueset.json.html"
+  },
+  "ValueSet-smart-va-level-of-education-valueset.json.html" : {
+    "title" : "SMART Verbal Autopsy Level of Education ValueSet - JSON Representation",
+    "label" : "5.1.7",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><a href='artifacts.html'><b>Artifact Index</b></a></li><li><b>SMART Verbal Autopsy Level of Education ValueSet</b></li>",
+    "previous" : "ValueSet-smart-va-level-of-education-valueset.xml.html",
+    "next" : "ValueSet-smart-va-level-of-education-valueset.ttl.html"
+  },
+  "ValueSet-smart-va-level-of-education-valueset.ttl.html" : {
+    "title" : "SMART Verbal Autopsy Level of Education ValueSet - TTL Representation",
+    "label" : "5.1.7",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><a href='artifacts.html'><b>Artifact Index</b></a></li><li><b>SMART Verbal Autopsy Level of Education ValueSet</b></li>",
+    "previous" : "ValueSet-smart-va-level-of-education-valueset.json.html",
+    "next" : "ValueSet-smart-va-weathers-seasons-vs.html"
+  },
+  "ValueSet-smart-va-weathers-seasons-vs.html" : {
+    "title" : "SMART Verbal Autopsy Weather Seasons ValueSet",
+    "label" : "5.1.8",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><a href='artifacts.html'><b>Artifact Index</b></a></li><li><b>SMART Verbal Autopsy Weather Seasons ValueSet</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "ValueSet-smart-va-level-of-education-valueset.ttl.html",
+    "next" : "ValueSet-smart-va-weathers-seasons-vs-testing.html"
+  },
+  "ValueSet-smart-va-weathers-seasons-vs-testing.html" : {
+    "title" : "SMART Verbal Autopsy Weather Seasons ValueSet - Testing",
+    "label" : "5.1.8",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><a href='artifacts.html'><b>Artifact Index</b></a></li><li><b>SMART Verbal Autopsy Weather Seasons ValueSet</b></li>",
+    "previous" : "ValueSet-smart-va-weathers-seasons-vs.html",
+    "next" : "ValueSet-smart-va-weathers-seasons-vs.xml.html"
+  },
+  "ValueSet-smart-va-weathers-seasons-vs.xml.html" : {
+    "title" : "SMART Verbal Autopsy Weather Seasons ValueSet - XML Representation",
+    "label" : "5.1.8",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><a href='artifacts.html'><b>Artifact Index</b></a></li><li><b>SMART Verbal Autopsy Weather Seasons ValueSet</b></li>",
+    "previous" : "ValueSet-smart-va-weathers-seasons-vs-testing.html",
+    "next" : "ValueSet-smart-va-weathers-seasons-vs.json.html"
+  },
+  "ValueSet-smart-va-weathers-seasons-vs.json.html" : {
+    "title" : "SMART Verbal Autopsy Weather Seasons ValueSet - JSON Representation",
+    "label" : "5.1.8",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><a href='artifacts.html'><b>Artifact Index</b></a></li><li><b>SMART Verbal Autopsy Weather Seasons ValueSet</b></li>",
+    "previous" : "ValueSet-smart-va-weathers-seasons-vs.xml.html",
+    "next" : "ValueSet-smart-va-weathers-seasons-vs.ttl.html"
+  },
+  "ValueSet-smart-va-weathers-seasons-vs.ttl.html" : {
+    "title" : "SMART Verbal Autopsy Weather Seasons ValueSet - TTL Representation",
+    "label" : "5.1.8",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><a href='artifacts.html'><b>Artifact Index</b></a></li><li><b>SMART Verbal Autopsy Weather Seasons ValueSet</b></li>",
+    "previous" : "ValueSet-smart-va-weathers-seasons-vs.json.html",
+    "next" : "CodeSystem-smart-va-hiv-moratality-region-cs.html"
+  },
+  "CodeSystem-smart-va-hiv-moratality-region-cs.html" : {
+    "title" : "SMART VA HIV Mortalirty Region Code System",
+    "label" : "5.1.9",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><a href='artifacts.html'><b>Artifact Index</b></a></li><li><b>SMART VA HIV Mortalirty Region Code System</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "ValueSet-smart-va-weathers-seasons-vs.ttl.html",
+    "next" : "CodeSystem-smart-va-hiv-moratality-region-cs-testing.html"
+  },
+  "CodeSystem-smart-va-hiv-moratality-region-cs-testing.html" : {
+    "title" : "SMART VA HIV Mortalirty Region Code System - Testing",
+    "label" : "5.1.9",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><a href='artifacts.html'><b>Artifact Index</b></a></li><li><b>SMART VA HIV Mortalirty Region Code System</b></li>",
+    "previous" : "CodeSystem-smart-va-hiv-moratality-region-cs.html",
+    "next" : "CodeSystem-smart-va-hiv-moratality-region-cs.xml.html"
+  },
+  "CodeSystem-smart-va-hiv-moratality-region-cs.xml.html" : {
+    "title" : "SMART VA HIV Mortalirty Region Code System - XML Representation",
+    "label" : "5.1.9",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><a href='artifacts.html'><b>Artifact Index</b></a></li><li><b>SMART VA HIV Mortalirty Region Code System</b></li>",
+    "previous" : "CodeSystem-smart-va-hiv-moratality-region-cs-testing.html",
+    "next" : "CodeSystem-smart-va-hiv-moratality-region-cs.json.html"
+  },
+  "CodeSystem-smart-va-hiv-moratality-region-cs.json.html" : {
+    "title" : "SMART VA HIV Mortalirty Region Code System - JSON Representation",
+    "label" : "5.1.9",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><a href='artifacts.html'><b>Artifact Index</b></a></li><li><b>SMART VA HIV Mortalirty Region Code System</b></li>",
+    "previous" : "CodeSystem-smart-va-hiv-moratality-region-cs.xml.html",
+    "next" : "CodeSystem-smart-va-hiv-moratality-region-cs.ttl.html"
+  },
+  "CodeSystem-smart-va-hiv-moratality-region-cs.ttl.html" : {
+    "title" : "SMART VA HIV Mortalirty Region Code System - TTL Representation",
+    "label" : "5.1.9",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><a href='artifacts.html'><b>Artifact Index</b></a></li><li><b>SMART VA HIV Mortalirty Region Code System</b></li>",
+    "previous" : "CodeSystem-smart-va-hiv-moratality-region-cs.json.html",
+    "next" : "CodeSystem-smart-va-level-of-education-codesystem.html"
+  },
+  "CodeSystem-smart-va-level-of-education-codesystem.html" : {
+    "title" : "SMART Verbal Autopsy Level of Education CodeSystem",
+    "label" : "5.1.10",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><a href='artifacts.html'><b>Artifact Index</b></a></li><li><b>SMART Verbal Autopsy Level of Education CodeSystem</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "CodeSystem-smart-va-hiv-moratality-region-cs.ttl.html",
+    "next" : "CodeSystem-smart-va-level-of-education-codesystem-testing.html"
+  },
+  "CodeSystem-smart-va-level-of-education-codesystem-testing.html" : {
+    "title" : "SMART Verbal Autopsy Level of Education CodeSystem - Testing",
+    "label" : "5.1.10",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><a href='artifacts.html'><b>Artifact Index</b></a></li><li><b>SMART Verbal Autopsy Level of Education CodeSystem</b></li>",
+    "previous" : "CodeSystem-smart-va-level-of-education-codesystem.html",
+    "next" : "CodeSystem-smart-va-level-of-education-codesystem.xml.html"
+  },
+  "CodeSystem-smart-va-level-of-education-codesystem.xml.html" : {
+    "title" : "SMART Verbal Autopsy Level of Education CodeSystem - XML Representation",
+    "label" : "5.1.10",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><a href='artifacts.html'><b>Artifact Index</b></a></li><li><b>SMART Verbal Autopsy Level of Education CodeSystem</b></li>",
+    "previous" : "CodeSystem-smart-va-level-of-education-codesystem-testing.html",
+    "next" : "CodeSystem-smart-va-level-of-education-codesystem.json.html"
+  },
+  "CodeSystem-smart-va-level-of-education-codesystem.json.html" : {
+    "title" : "SMART Verbal Autopsy Level of Education CodeSystem - JSON Representation",
+    "label" : "5.1.10",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><a href='artifacts.html'><b>Artifact Index</b></a></li><li><b>SMART Verbal Autopsy Level of Education CodeSystem</b></li>",
+    "previous" : "CodeSystem-smart-va-level-of-education-codesystem.xml.html",
+    "next" : "CodeSystem-smart-va-level-of-education-codesystem.ttl.html"
+  },
+  "CodeSystem-smart-va-level-of-education-codesystem.ttl.html" : {
+    "title" : "SMART Verbal Autopsy Level of Education CodeSystem - TTL Representation",
+    "label" : "5.1.10",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><a href='artifacts.html'><b>Artifact Index</b></a></li><li><b>SMART Verbal Autopsy Level of Education CodeSystem</b></li>",
+    "previous" : "CodeSystem-smart-va-level-of-education-codesystem.json.html",
+    "next" : "CodeSystem-smart-va-weather-seasons-cs.html"
+  },
+  "CodeSystem-smart-va-weather-seasons-cs.html" : {
+    "title" : "SMART Verbal Autopsy Weather Seasons Code System",
+    "label" : "5.1.11",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><a href='artifacts.html'><b>Artifact Index</b></a></li><li><b>SMART Verbal Autopsy Weather Seasons Code System</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "CodeSystem-smart-va-level-of-education-codesystem.ttl.html",
+    "next" : "CodeSystem-smart-va-weather-seasons-cs-testing.html"
+  },
+  "CodeSystem-smart-va-weather-seasons-cs-testing.html" : {
+    "title" : "SMART Verbal Autopsy Weather Seasons Code System - Testing",
+    "label" : "5.1.11",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><a href='artifacts.html'><b>Artifact Index</b></a></li><li><b>SMART Verbal Autopsy Weather Seasons Code System</b></li>",
+    "previous" : "CodeSystem-smart-va-weather-seasons-cs.html",
+    "next" : "CodeSystem-smart-va-weather-seasons-cs.xml.html"
+  },
+  "CodeSystem-smart-va-weather-seasons-cs.xml.html" : {
+    "title" : "SMART Verbal Autopsy Weather Seasons Code System - XML Representation",
+    "label" : "5.1.11",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><a href='artifacts.html'><b>Artifact Index</b></a></li><li><b>SMART Verbal Autopsy Weather Seasons Code System</b></li>",
+    "previous" : "CodeSystem-smart-va-weather-seasons-cs-testing.html",
+    "next" : "CodeSystem-smart-va-weather-seasons-cs.json.html"
+  },
+  "CodeSystem-smart-va-weather-seasons-cs.json.html" : {
+    "title" : "SMART Verbal Autopsy Weather Seasons Code System - JSON Representation",
+    "label" : "5.1.11",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><a href='artifacts.html'><b>Artifact Index</b></a></li><li><b>SMART Verbal Autopsy Weather Seasons Code System</b></li>",
+    "previous" : "CodeSystem-smart-va-weather-seasons-cs.xml.html",
+    "next" : "CodeSystem-smart-va-weather-seasons-cs.ttl.html"
+  },
+  "CodeSystem-smart-va-weather-seasons-cs.ttl.html" : {
+    "title" : "SMART Verbal Autopsy Weather Seasons Code System - TTL Representation",
+    "label" : "5.1.11",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><a href='artifacts.html'><b>Artifact Index</b></a></li><li><b>SMART Verbal Autopsy Weather Seasons Code System</b></li>",
+    "previous" : "CodeSystem-smart-va-weather-seasons-cs.json.html",
+    "next" : "CodeSystem-smart-va-malaria-mortality-region-cs.html"
+  },
+  "CodeSystem-smart-va-malaria-mortality-region-cs.html" : {
+    "title" : "SMARTVA Malaria Mortality Region Code System",
+    "label" : "5.1.12",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><a href='artifacts.html'><b>Artifact Index</b></a></li><li><b>SMARTVA Malaria Mortality Region Code System</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "CodeSystem-smart-va-weather-seasons-cs.ttl.html",
+    "next" : "CodeSystem-smart-va-malaria-mortality-region-cs-testing.html"
+  },
+  "CodeSystem-smart-va-malaria-mortality-region-cs-testing.html" : {
+    "title" : "SMARTVA Malaria Mortality Region Code System - Testing",
+    "label" : "5.1.12",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><a href='artifacts.html'><b>Artifact Index</b></a></li><li><b>SMARTVA Malaria Mortality Region Code System</b></li>",
+    "previous" : "CodeSystem-smart-va-malaria-mortality-region-cs.html",
+    "next" : "CodeSystem-smart-va-malaria-mortality-region-cs.xml.html"
+  },
+  "CodeSystem-smart-va-malaria-mortality-region-cs.xml.html" : {
+    "title" : "SMARTVA Malaria Mortality Region Code System - XML Representation",
+    "label" : "5.1.12",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><a href='artifacts.html'><b>Artifact Index</b></a></li><li><b>SMARTVA Malaria Mortality Region Code System</b></li>",
+    "previous" : "CodeSystem-smart-va-malaria-mortality-region-cs-testing.html",
+    "next" : "CodeSystem-smart-va-malaria-mortality-region-cs.json.html"
+  },
+  "CodeSystem-smart-va-malaria-mortality-region-cs.json.html" : {
+    "title" : "SMARTVA Malaria Mortality Region Code System - JSON Representation",
+    "label" : "5.1.12",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><a href='artifacts.html'><b>Artifact Index</b></a></li><li><b>SMARTVA Malaria Mortality Region Code System</b></li>",
+    "previous" : "CodeSystem-smart-va-malaria-mortality-region-cs.xml.html",
+    "next" : "CodeSystem-smart-va-malaria-mortality-region-cs.ttl.html"
+  },
+  "CodeSystem-smart-va-malaria-mortality-region-cs.ttl.html" : {
+    "title" : "SMARTVA Malaria Mortality Region Code System - TTL Representation",
+    "label" : "5.1.12",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><a href='artifacts.html'><b>Artifact Index</b></a></li><li><b>SMARTVA Malaria Mortality Region Code System</b></li>",
+    "previous" : "CodeSystem-smart-va-malaria-mortality-region-cs.json.html",
+    "next" : "Patient-example.html"
+  },
+  "Patient-example.html" : {
+    "title" : "example",
+    "label" : "5.1.13",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><a href='artifacts.html'><b>Artifact Index</b></a></li><li><b>example</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "CodeSystem-smart-va-malaria-mortality-region-cs.ttl.html",
+    "next" : "Patient-example.xml.html"
+  },
+  "Patient-example.xml.html" : {
+    "title" : "example - XML Representation",
+    "label" : "5.1.13",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><a href='artifacts.html'><b>Artifact Index</b></a></li><li><b>example</b></li>",
+    "previous" : "Patient-example.html",
+    "next" : "Patient-example.json.html"
+  },
+  "Patient-example.json.html" : {
+    "title" : "example - JSON Representation",
+    "label" : "5.1.13",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><a href='artifacts.html'><b>Artifact Index</b></a></li><li><b>example</b></li>",
+    "previous" : "Patient-example.xml.html",
+    "next" : "Patient-example.ttl.html"
+  },
+  "Patient-example.ttl.html" : {
+    "title" : "example - TTL Representation",
+    "label" : "5.1.13",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><a href='artifacts.html'><b>Artifact Index</b></a></li><li><b>example</b></li>",
+    "previous" : "Patient-example.json.html",
+    "next" : "maps.html"
+  },
+  "maps.html" : {
+    "title" : "Mappings",
+    "label" : "5.2",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><b>Mappings</b></li>",
+    "previous" : "Patient-example.ttl.html"
+  }
+}

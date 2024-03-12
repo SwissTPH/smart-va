@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="smart-va-level-of-education-valueset"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-smart-va-level-of-education-codesystem.html"><code>https://smartva.org/fhir/CodeSystem/smart-va-level-of-education-codesystem</code></a></li></ul></div>
+  </text>
+  <url value="http://smartva.org/fhir/ValueSet/smart-va-level-of-education-valueset"/>
+  <version value="0.1.0"/>
+  <name value="SMARTVALevelofEducationVS"/>
+  <title value="SMART Verbal Autopsy Level of Education ValueSet"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2024-03-12T15:30:39+01:00"/>
+  <publisher value="CDC"/>
+  <contact>
+    <name value="CDC"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://cdc.gov"/>
+    </telecom>
+  </contact>
+  <description value="This ValueSet contains values related to the SMART Verbal Autopsy level of education of the decseaed person."/>
+  <compose>
+    <include>
+      <system value="https://smartva.org/fhir/CodeSystem/smart-va-level-of-education-codesystem"/>
+    </include>
+  </compose>
+</ValueSet>

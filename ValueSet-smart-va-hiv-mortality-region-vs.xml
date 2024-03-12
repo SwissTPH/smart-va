@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="smart-va-hiv-mortality-region-vs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-smart-va-hiv-moratality-region-cs.html"><code>http://smartva.org/fhir/CodingSystem/smart-va-hiv-moratality-region-cs</code></a></li></ul></div>
+  </text>
+  <url value="https://smartva.org/fhir/ValueSet/smart-va-hiv-mortality-region-vs"/>
+  <version value="0.1.0"/>
+  <name value="SMARTVAHIVMortalityRegionVS"/>
+  <title value="SMART VA HIV Mortality Region Value Set"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2024-03-12T15:30:39+01:00"/>
+  <publisher value="CDC"/>
+  <contact>
+    <name value="CDC"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://cdc.gov"/>
+    </telecom>
+  </contact>
+  <description value="SMART VA HIV Mortality Region Value Set to capture HIV prevelance of a location"/>
+  <compose>
+    <include>
+      <system value="http://smartva.org/fhir/CodingSystem/smart-va-hiv-moratality-region-cs"/>
+    </include>
+  </compose>
+</ValueSet>

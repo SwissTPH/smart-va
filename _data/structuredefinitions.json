@@ -1,0 +1,92 @@
+{
+  "smart-va-level-of-education-ext" : {
+    "index" : 0,
+    "url" : "http://smartva.org/fhir/StructureDefinition/smart-va-level-of-education-ext",
+    "name" : "SMARTVALevelofEducationEXT",
+    "title" : "SMART VA Patient Level of Education Extension",
+    "path" : "StructureDefinition-smart-va-level-of-education-ext.html",
+    "kind" : "complex-type",
+    "type" : "Extension",
+    "base" : "http://hl7.org/fhir/StructureDefinition/Extension",
+    "basename" : "Extension",
+    "basepath" : "http://hl7.org/fhir/R4B/extensibility.html#Extension",
+    "status" : "draft",
+    "date" : "Tue Mar 12 15:30:39 CET 2024",
+    "abstract" : false,
+    "derivation" : "constraint",
+    "publisher" : "CDC",
+    "copyright" : null,
+    "description" : "This extension includes the deceased patient's level of education.",
+    "contexts" : [
+      {
+        "type" : "Element ID",
+        "expression" : "Element"
+      }
+    ],
+    "extension-contexts" : ["Element", "datatypes", "multiple"]
+  },
+  "smart-va-weather-season-ext" : {
+    "index" : 1,
+    "url" : "https://smartva.org/StructureDefinition/smart-va-weather-season-ext",
+    "name" : "SMARTVAWeatherSeasonExt",
+    "title" : "SMART VA Weather Season Extension",
+    "path" : "StructureDefinition-smart-va-weather-season-ext.html",
+    "kind" : "complex-type",
+    "type" : "Extension",
+    "base" : "http://hl7.org/fhir/StructureDefinition/Extension",
+    "basename" : "Extension",
+    "basepath" : "http://hl7.org/fhir/R4B/extensibility.html#Extension",
+    "status" : "draft",
+    "date" : "Tue Mar 12 15:30:39 CET 2024",
+    "abstract" : false,
+    "derivation" : "constraint",
+    "publisher" : "CDC",
+    "copyright" : null,
+    "description" : "SMART VA extension for decribing season of weather",
+    "contexts" : [
+      {
+        "type" : "Element ID",
+        "expression" : "Element"
+      }
+    ],
+    "extension-contexts" : ["Element", "datatypes", "multiple"]
+  },
+  "va-location" : {
+    "index" : 2,
+    "url" : "http://smartva.org/StructureDefinition/va-location",
+    "name" : "SMARTVALocation",
+    "title" : "SMART VA Location Profile",
+    "path" : "StructureDefinition-va-location.html",
+    "kind" : "resource",
+    "type" : "Location",
+    "base" : "http://hl7.org/fhir/StructureDefinition/Location",
+    "basename" : "Location",
+    "basepath" : "http://hl7.org/fhir/R4B/location.html",
+    "status" : "draft",
+    "date" : "Tue Mar 12 15:30:39 CET 2024",
+    "abstract" : false,
+    "derivation" : "constraint",
+    "publisher" : "CDC",
+    "copyright" : null,
+    "description" : "This profile is used to capture the location data of SMART VA Data collection process"
+  },
+  "va-patient" : {
+    "index" : 3,
+    "url" : "http://smartva.org/StructureDefinition/va-patient",
+    "name" : "SmartVAPatient",
+    "title" : "Verbal Autopsy Patient",
+    "path" : "StructureDefinition-va-patient.html",
+    "kind" : "resource",
+    "type" : "Patient",
+    "base" : "http://hl7.org/fhir/StructureDefinition/Patient",
+    "basename" : "Patient",
+    "basepath" : "http://hl7.org/fhir/R4B/patient.html",
+    "status" : "draft",
+    "date" : "Tue Mar 12 15:30:39 CET 2024",
+    "abstract" : false,
+    "derivation" : "constraint",
+    "publisher" : "CDC",
+    "copyright" : null,
+    "description" : "Sample SMART Verbal Autopsy Patient Profile"
+  }
+}

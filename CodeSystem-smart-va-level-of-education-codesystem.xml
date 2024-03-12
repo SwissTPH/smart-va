@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="smart-va-level-of-education-codesystem"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This  code system <code>https://smartva.org/fhir/CodeSystem/smart-va-level-of-education-codesystem</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">no-formal-education<a name="smart-va-level-of-education-codesystem-no-formal-education"> </a></td><td>No formal education</td></tr><tr><td style="white-space:nowrap">primary-school<a name="smart-va-level-of-education-codesystem-primary-school"> </a></td><td>Primary school</td></tr><tr><td style="white-space:nowrap">secondary-school<a name="smart-va-level-of-education-codesystem-secondary-school"> </a></td><td>Secondary school</td></tr><tr><td style="white-space:nowrap">higher-than-secondary-school<a name="smart-va-level-of-education-codesystem-higher-than-secondary-school"> </a></td><td>Higher than secondary school</td></tr><tr><td style="white-space:nowrap">dk<a name="smart-va-level-of-education-codesystem-dk"> </a></td><td>Don't know</td></tr><tr><td style="white-space:nowrap">refused<a name="smart-va-level-of-education-codesystem-refused"> </a></td><td>Refused to answer</td></tr><tr><td style="white-space:nowrap">unknown<a name="smart-va-level-of-education-codesystem-unknown"> </a></td><td>Unknown</td></tr></table></div>
+  </text>
+  <url value="https://smartva.org/fhir/CodeSystem/smart-va-level-of-education-codesystem"/>
+  <version value="0.1.0"/>
+  <name value="SMARTVALevelOfEducationCS"/>
+  <title value="SMART Verbal Autopsy Level of Education CodeSystem"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2024-03-12T15:30:39+01:00"/>
+  <publisher value="CDC"/>
+  <contact>
+    <name value="CDC"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://cdc.gov"/>
+    </telecom>
+  </contact>
+  <description value="This CodeSystem contains values related to the SMART Verbal Autopsy level of education of the decseaed person."/>
+  <content value="complete"/>
+  <count value="7"/>
+  <concept>
+    <code value="no-formal-education"/>
+    <display value="No formal education"/>
+  </concept>
+  <concept>
+    <code value="primary-school"/>
+    <display value="Primary school"/>
+  </concept>
+  <concept>
+    <code value="secondary-school"/>
+    <display value="Secondary school"/>
+  </concept>
+  <concept>
+    <code value="higher-than-secondary-school"/>
+    <display value="Higher than secondary school"/>
+  </concept>
+  <concept>
+    <code value="dk"/>
+    <display value="Don't know"/>
+  </concept>
+  <concept>
+    <code value="refused"/>
+    <display value="Refused to answer"/>
+  </concept>
+  <concept>
+    <code value="unknown"/>
+    <display value="Unknown"/>
+  </concept>
+</CodeSystem>

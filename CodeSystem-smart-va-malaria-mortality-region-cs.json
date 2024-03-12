@@ -1,0 +1,38 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "smart-va-malaria-mortality-region-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>http://smartva.org/fhir/CodeSystem/smart-va-malaria-mortality-region-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">h<a name=\"smart-va-malaria-mortality-region-cs-h\"> </a></td><td>High level of malaria prevelance</td></tr><tr><td style=\"white-space:nowrap\">l<a name=\"smart-va-malaria-mortality-region-cs-l\"> </a></td><td>Low level of malaria prevelance</td></tr><tr><td style=\"white-space:nowrap\">v<a name=\"smart-va-malaria-mortality-region-cs-v\"> </a></td><td>Very low level of malaria prevelance</td></tr></table></div>"
+  },
+  "url" : "http://smartva.org/fhir/CodeSystem/smart-va-malaria-mortality-region-cs",
+  "version" : "0.1.0",
+  "name" : "SMARTVAMalariaMortalityRegionCS",
+  "title" : "SMARTVA Malaria Mortality Region Code System",
+  "status" : "draft",
+  "experimental" : true,
+  "date" : "2024-03-12T15:30:39+01:00",
+  "publisher" : "CDC",
+  "contact" : [{
+    "name" : "CDC",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://cdc.gov"
+    }]
+  }],
+  "description" : "Code system for the malaria prevelance of region where the death occurred",
+  "content" : "complete",
+  "count" : 3,
+  "concept" : [{
+    "code" : "h",
+    "display" : "High level of malaria prevelance"
+  },
+  {
+    "code" : "l",
+    "display" : "Low level of malaria prevelance"
+  },
+  {
+    "code" : "v",
+    "display" : "Very low level of malaria prevelance"
+  }]
+}

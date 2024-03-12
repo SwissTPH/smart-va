@@ -1,0 +1,48 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://smartva.org/fhir/CodeSystem/smart-va-malaria-mortality-region-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "SMARTVAMalariaMortalityRegionCS",
+      "title" : "SMARTVA Malaria Mortality Region Code System",
+      "description" : "Code system for the malaria prevelance of region where the death occurred",
+      "uses" : {
+      },
+      "ValueSet-smart-va-malaria-mortality-region-vs.html" : "SMART Va Malaria Mortality Region ValueSet"
+    },
+    {
+      "url" : "http://smartva.org/fhir/CodingSystem/smart-va-hiv-moratality-region-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "SMARTVAHIVMoratalityRegionCS",
+      "title" : "SMART VA HIV Mortalirty Region Code System",
+      "description" : "HIV mortaliry prevelance CodeSystem for the SMART verbal autopsy guideline",
+      "uses" : {
+      },
+      "ValueSet-smart-va-hiv-mortality-region-vs.html" : "SMART VA HIV Mortality Region Value Set"
+    },
+    {
+      "url" : "https://smartva.org/fhir/CodeSystem/smart-va-level-of-education-codesystem",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "SMARTVALevelOfEducationCS",
+      "title" : "SMART Verbal Autopsy Level of Education CodeSystem",
+      "description" : "This CodeSystem contains values related to the SMART Verbal Autopsy level of education of the decseaed person.",
+      "uses" : {
+      },
+      "ValueSet-smart-va-level-of-education-valueset.html" : "SMART Verbal Autopsy Level of Education ValueSet"
+    },
+    {
+      "url" : "https://smartva.org/fhir/CodeSystem/smart-va-weather-seasons-cs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "SMARTVAWeatherSeasonsCS",
+      "title" : "SMART Verbal Autopsy Weather Seasons Code System",
+      "description" : "CodeSytem to describe the weather seasons for the verbal autosy SMART guidelines",
+      "uses" : {
+      },
+      "ValueSet-smart-va-weathers-seasons-vs.html" : "SMART Verbal Autopsy Weather Seasons ValueSet"
+    }
+  ]
+}

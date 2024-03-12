@@ -1,0 +1,13 @@
+[example]: Patient-example.html
+[SMARTVAHIVMoratalityRegionCS]: CodeSystem-smart-va-hiv-moratality-region-cs.html
+[SMARTVAHIVMortalityRegionVS]: ValueSet-smart-va-hiv-mortality-region-vs.html
+[SMARTVALocation]: StructureDefinition-va-location.html
+[SMARTVAMalarioMortalityRegionVS]: ValueSet-smart-va-malaria-mortality-region-vs.html
+[SMARTVALevelofEducationEXT]: StructureDefinition-smart-va-level-of-education-ext.html
+[SMARTVAWeatherSeasonExt]: StructureDefinition-smart-va-weather-season-ext.html
+[SMARTVALevelOfEducationCS]: CodeSystem-smart-va-level-of-education-codesystem.html
+[SMARTVALevelofEducationVS]: ValueSet-smart-va-level-of-education-valueset.html
+[SMARTVAWeatherSeasonsCS]: CodeSystem-smart-va-weather-seasons-cs.html
+[SMARTVAWeatherSeasonsVS]: ValueSet-smart-va-weathers-seasons-vs.html
+[SMARTVAMalariaMortalityRegionCS]: CodeSystem-smart-va-malaria-mortality-region-cs.html
+[SmartVAPatient]: StructureDefinition-va-patient.html

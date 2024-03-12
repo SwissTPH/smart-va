@@ -1,0 +1,57 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://smartva.org/CodeSystem/smart-va-level-of-education-codesystem> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "smart-va-level-of-education-codesystem"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>https://smartva.org/fhir/CodeSystem/smart-va-level-of-education-codesystem</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">no-formal-education<a name=\"smart-va-level-of-education-codesystem-no-formal-education\"> </a></td><td>No formal education</td></tr><tr><td style=\"white-space:nowrap\">primary-school<a name=\"smart-va-level-of-education-codesystem-primary-school\"> </a></td><td>Primary school</td></tr><tr><td style=\"white-space:nowrap\">secondary-school<a name=\"smart-va-level-of-education-codesystem-secondary-school\"> </a></td><td>Secondary school</td></tr><tr><td style=\"white-space:nowrap\">higher-than-secondary-school<a name=\"smart-va-level-of-education-codesystem-higher-than-secondary-school\"> </a></td><td>Higher than secondary school</td></tr><tr><td style=\"white-space:nowrap\">dk<a name=\"smart-va-level-of-education-codesystem-dk\"> </a></td><td>Don't know</td></tr><tr><td style=\"white-space:nowrap\">refused<a name=\"smart-va-level-of-education-codesystem-refused\"> </a></td><td>Refused to answer</td></tr><tr><td style=\"white-space:nowrap\">unknown<a name=\"smart-va-level-of-education-codesystem-unknown\"> </a></td><td>Unknown</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "https://smartva.org/fhir/CodeSystem/smart-va-level-of-education-codesystem"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "SMARTVALevelOfEducationCS"] ; # 
+  fhir:title [ fhir:v "SMART Verbal Autopsy Level of Education CodeSystem"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2024-03-12T15:30:39+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "CDC"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "CDC" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://cdc.gov" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This CodeSystem contains values related to the SMART Verbal Autopsy level of education of the decseaed person."] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "7"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "no-formal-education" ] ;
+     fhir:display [ fhir:v "No formal education" ]
+  ] [
+     fhir:code [ fhir:v "primary-school" ] ;
+     fhir:display [ fhir:v "Primary school" ]
+  ] [
+     fhir:code [ fhir:v "secondary-school" ] ;
+     fhir:display [ fhir:v "Secondary school" ]
+  ] [
+     fhir:code [ fhir:v "higher-than-secondary-school" ] ;
+     fhir:display [ fhir:v "Higher than secondary school" ]
+  ] [
+     fhir:code [ fhir:v "dk" ] ;
+     fhir:display [ fhir:v "Don't know" ]
+  ] [
+     fhir:code [ fhir:v "refused" ] ;
+     fhir:display [ fhir:v "Refused to answer" ]
+  ] [
+     fhir:code [ fhir:v "unknown" ] ;
+     fhir:display [ fhir:v "Unknown" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

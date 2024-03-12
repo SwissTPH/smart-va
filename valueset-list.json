@@ -1,0 +1,48 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://smartva.org/fhir/ValueSet/smart-va-level-of-education-valueset",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "SMARTVALevelofEducationVS",
+      "title" : "SMART Verbal Autopsy Level of Education ValueSet",
+      "description" : "This ValueSet contains values related to the SMART Verbal Autopsy level of education of the decseaed person.",
+      "systems" : [
+        "https://smartva.org/fhir/CodeSystem/smart-va-level-of-education-codesystem"
+      ]
+    },
+    {
+      "url" : "http://smartva.org/fhir/ValueSets/smart-va-weathers-seasons-vs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "SMARTVAWeatherSeasonsVS",
+      "title" : "SMART Verbal Autopsy Weather Seasons ValueSet",
+      "description" : "SMART Verbal Autopsy valueset for describing weather seasons",
+      "systems" : [
+        "https://smartva.org/fhir/CodeSystem/smart-va-weather-seasons-cs"
+      ]
+    },
+    {
+      "url" : "https://smartva.org/fhir/ValueSet/smart-va-hiv-mortality-region-vs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "SMARTVAHIVMortalityRegionVS",
+      "title" : "SMART VA HIV Mortality Region Value Set",
+      "description" : "SMART VA HIV Mortality Region Value Set to capture HIV prevelance of a location",
+      "systems" : [
+        "http://smartva.org/fhir/CodingSystem/smart-va-hiv-moratality-region-cs"
+      ]
+    },
+    {
+      "url" : "https://smartva.org/fhir/ValueSet/smart-va-malaria-mortality-region-vs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "SMARTVAMalarioMortalityRegionVS",
+      "title" : "SMART Va Malaria Mortality Region ValueSet",
+      "description" : "ValueSet to capture the region Malaria mortality prevelance for SMART verbal autopsy",
+      "systems" : [
+        "http://smartva.org/fhir/CodeSystem/smart-va-malaria-mortality-region-cs"
+      ]
+    }
+  ]
+}

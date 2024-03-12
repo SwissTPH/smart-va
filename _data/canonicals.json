@@ -1,0 +1,93 @@
+[
+  {
+    "id" : "who.fhir.smart-ig-empty",
+    "type" : "ImplementationGuide",
+    "url" : "http://smartva.org/ImplementationGuide/who.fhir.smart-ig-empty",
+    "version" : "0.1.0",
+    "name" : "VerbalAutopsySMARTGuideline"
+  },
+  {
+    "id" : "va-location",
+    "type" : "StructureDefinition",
+    "url" : "http://smartva.org/StructureDefinition/va-location",
+    "version" : "0.1.0",
+    "name" : "SMARTVALocation"
+  },
+  {
+    "id" : "va-patient",
+    "type" : "StructureDefinition",
+    "url" : "http://smartva.org/StructureDefinition/va-patient",
+    "version" : "0.1.0",
+    "name" : "SmartVAPatient"
+  },
+  {
+    "id" : "smart-va-malaria-mortality-region-cs",
+    "type" : "CodeSystem",
+    "url" : "http://smartva.org/fhir/CodeSystem/smart-va-malaria-mortality-region-cs",
+    "version" : "0.1.0",
+    "name" : "SMARTVAMalariaMortalityRegionCS"
+  },
+  {
+    "id" : "smart-va-hiv-moratality-region-cs",
+    "type" : "CodeSystem",
+    "url" : "http://smartva.org/fhir/CodingSystem/smart-va-hiv-moratality-region-cs",
+    "version" : "0.1.0",
+    "name" : "SMARTVAHIVMoratalityRegionCS"
+  },
+  {
+    "id" : "smart-va-level-of-education-ext",
+    "type" : "StructureDefinition",
+    "url" : "http://smartva.org/fhir/StructureDefinition/smart-va-level-of-education-ext",
+    "version" : "0.1.0",
+    "name" : "SMARTVALevelofEducationEXT"
+  },
+  {
+    "id" : "smart-va-level-of-education-valueset",
+    "type" : "ValueSet",
+    "url" : "http://smartva.org/fhir/ValueSet/smart-va-level-of-education-valueset",
+    "version" : "0.1.0",
+    "name" : "SMARTVALevelofEducationVS"
+  },
+  {
+    "id" : "smart-va-weathers-seasons-vs",
+    "type" : "ValueSet",
+    "url" : "http://smartva.org/fhir/ValueSets/smart-va-weathers-seasons-vs",
+    "version" : "0.1.0",
+    "name" : "SMARTVAWeatherSeasonsVS"
+  },
+  {
+    "id" : "smart-va-weather-season-ext",
+    "type" : "StructureDefinition",
+    "url" : "https://smartva.org/StructureDefinition/smart-va-weather-season-ext",
+    "version" : "0.1.0",
+    "name" : "SMARTVAWeatherSeasonExt"
+  },
+  {
+    "id" : "smart-va-level-of-education-codesystem",
+    "type" : "CodeSystem",
+    "url" : "https://smartva.org/fhir/CodeSystem/smart-va-level-of-education-codesystem",
+    "version" : "0.1.0",
+    "name" : "SMARTVALevelOfEducationCS"
+  },
+  {
+    "id" : "smart-va-weather-seasons-cs",
+    "type" : "CodeSystem",
+    "url" : "https://smartva.org/fhir/CodeSystem/smart-va-weather-seasons-cs",
+    "version" : "0.1.0",
+    "name" : "SMARTVAWeatherSeasonsCS"
+  },
+  {
+    "id" : "smart-va-hiv-mortality-region-vs",
+    "type" : "ValueSet",
+    "url" : "https://smartva.org/fhir/ValueSet/smart-va-hiv-mortality-region-vs",
+    "version" : "0.1.0",
+    "name" : "SMARTVAHIVMortalityRegionVS"
+  },
+  {
+    "id" : "smart-va-malaria-mortality-region-vs",
+    "type" : "ValueSet",
+    "url" : "https://smartva.org/fhir/ValueSet/smart-va-malaria-mortality-region-vs",
+    "version" : "0.1.0",
+    "name" : "SMARTVAMalarioMortalityRegionVS"
+  }
+]

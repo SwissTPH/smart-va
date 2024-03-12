@@ -1,0 +1,294 @@
+{
+  "ImplementationGuide/who.fhir.smart-ig-empty" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 0,
+    "source" : "/home/rukshan/Documents/repos/smart-va/fsh-generated/resources/ImplementationGuide-who.fhir.smart-ig-empty.json",
+    "sourceTail" : "ImplementationGuide-who.fhir.smart-ig-empty.json",
+    "path" : "ImplementationGuide-who.fhir.smart-ig-empty.html",
+    "url" : "http://smartva.org/ImplementationGuide/who.fhir.smart-ig-empty",
+    "version" : "0.1.0",
+    "name" : "VerbalAutopsySMARTGuideline",
+    "title" : "Verbal Autopsy SMART Guideline",
+    "date" : "2024-03-12T15:30:39+01:00",
+    "description" : "The SMART guideline for Verbal Autopsy data exchange and interoperability",
+    "status" : {
+      "class" : "colsd",
+      "owner" : "CDC",
+      "link" : "http://cdc.gov",
+      "status" : "Draft"
+    }
+  },
+  "CodeSystem/smart-va-hiv-moratality-region-cs" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 1,
+    "source" : "fsh-generated/resources/CodeSystem-smart-va-hiv-moratality-region-cs.json",
+    "sourceTail" : "CodeSystem-smart-va-hiv-moratality-region-cs.json",
+    "path" : "CodeSystem-smart-va-hiv-moratality-region-cs.html",
+    "url" : "http://smartva.org/fhir/CodingSystem/smart-va-hiv-moratality-region-cs",
+    "version" : "0.1.0",
+    "name" : "SMARTVAHIVMoratalityRegionCS",
+    "title" : "SMART VA HIV Mortalirty Region Code System",
+    "experimental" : true,
+    "date" : "2024-03-12T15:30:39+01:00",
+    "description" : "HIV mortaliry prevelance CodeSystem for the SMART verbal autopsy guideline",
+    "status" : {
+      "class" : "colsd",
+      "owner" : "CDC",
+      "link" : "http://cdc.gov",
+      "status" : "Draft"
+    }
+  },
+  "CodeSystem/smart-va-level-of-education-codesystem" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 2,
+    "source" : "fsh-generated/resources/CodeSystem-smart-va-level-of-education-codesystem.json",
+    "sourceTail" : "CodeSystem-smart-va-level-of-education-codesystem.json",
+    "path" : "CodeSystem-smart-va-level-of-education-codesystem.html",
+    "url" : "https://smartva.org/fhir/CodeSystem/smart-va-level-of-education-codesystem",
+    "version" : "0.1.0",
+    "name" : "SMARTVALevelOfEducationCS",
+    "title" : "SMART Verbal Autopsy Level of Education CodeSystem",
+    "experimental" : true,
+    "date" : "2024-03-12T15:30:39+01:00",
+    "description" : "This CodeSystem contains values related to the SMART Verbal Autopsy level of education of the decseaed person.",
+    "status" : {
+      "class" : "colsd",
+      "owner" : "CDC",
+      "link" : "http://cdc.gov",
+      "status" : "Draft"
+    }
+  },
+  "CodeSystem/smart-va-malaria-mortality-region-cs" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 3,
+    "source" : "fsh-generated/resources/CodeSystem-smart-va-malaria-mortality-region-cs.json",
+    "sourceTail" : "CodeSystem-smart-va-malaria-mortality-region-cs.json",
+    "path" : "CodeSystem-smart-va-malaria-mortality-region-cs.html",
+    "url" : "http://smartva.org/fhir/CodeSystem/smart-va-malaria-mortality-region-cs",
+    "version" : "0.1.0",
+    "name" : "SMARTVAMalariaMortalityRegionCS",
+    "title" : "SMARTVA Malaria Mortality Region Code System",
+    "experimental" : true,
+    "date" : "2024-03-12T15:30:39+01:00",
+    "description" : "Code system for the malaria prevelance of region where the death occurred",
+    "status" : {
+      "class" : "colsd",
+      "owner" : "CDC",
+      "link" : "http://cdc.gov",
+      "status" : "Draft"
+    }
+  },
+  "CodeSystem/smart-va-weather-seasons-cs" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 4,
+    "source" : "fsh-generated/resources/CodeSystem-smart-va-weather-seasons-cs.json",
+    "sourceTail" : "CodeSystem-smart-va-weather-seasons-cs.json",
+    "path" : "CodeSystem-smart-va-weather-seasons-cs.html",
+    "url" : "https://smartva.org/fhir/CodeSystem/smart-va-weather-seasons-cs",
+    "version" : "0.1.0",
+    "name" : "SMARTVAWeatherSeasonsCS",
+    "title" : "SMART Verbal Autopsy Weather Seasons Code System",
+    "experimental" : true,
+    "date" : "2024-03-12T15:30:39+01:00",
+    "description" : "CodeSytem to describe the weather seasons for the verbal autosy SMART guidelines",
+    "status" : {
+      "class" : "colsi",
+      "owner" : "CDC",
+      "link" : "http://cdc.gov",
+      "status" : "Active"
+    }
+  },
+  "Patient/example" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 5,
+    "source" : "fsh-generated/resources/Patient-example.json",
+    "sourceTail" : "Patient-example.json",
+    "path" : "Patient-example.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "StructureDefinition/smart-va-level-of-education-ext" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 6,
+    "source" : "fsh-generated/resources/StructureDefinition-smart-va-level-of-education-ext.json",
+    "sourceTail" : "StructureDefinition-smart-va-level-of-education-ext.json",
+    "path" : "StructureDefinition-smart-va-level-of-education-ext.html",
+    "url" : "http://smartva.org/fhir/StructureDefinition/smart-va-level-of-education-ext",
+    "version" : "0.1.0",
+    "name" : "SMARTVALevelofEducationEXT",
+    "title" : "SMART VA Patient Level of Education Extension",
+    "date" : "2024-03-12T15:30:39+01:00",
+    "description" : "This extension includes the deceased patient's level of education.",
+    "status" : {
+      "class" : "colsd",
+      "owner" : "CDC",
+      "link" : "http://cdc.gov",
+      "status" : "Draft"
+    }
+  },
+  "StructureDefinition/smart-va-weather-season-ext" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 7,
+    "source" : "fsh-generated/resources/StructureDefinition-smart-va-weather-season-ext.json",
+    "sourceTail" : "StructureDefinition-smart-va-weather-season-ext.json",
+    "path" : "StructureDefinition-smart-va-weather-season-ext.html",
+    "url" : "https://smartva.org/StructureDefinition/smart-va-weather-season-ext",
+    "version" : "0.1.0",
+    "name" : "SMARTVAWeatherSeasonExt",
+    "title" : "SMART VA Weather Season Extension",
+    "date" : "2024-03-12T15:30:39+01:00",
+    "description" : "SMART VA extension for decribing season of weather",
+    "status" : {
+      "class" : "colsd",
+      "owner" : "CDC",
+      "link" : "http://cdc.gov",
+      "status" : "Draft"
+    }
+  },
+  "StructureDefinition/va-location" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 8,
+    "source" : "fsh-generated/resources/StructureDefinition-va-location.json",
+    "sourceTail" : "StructureDefinition-va-location.json",
+    "path" : "StructureDefinition-va-location.html",
+    "url" : "http://smartva.org/StructureDefinition/va-location",
+    "version" : "0.1.0",
+    "name" : "SMARTVALocation",
+    "title" : "SMART VA Location Profile",
+    "date" : "2024-03-12T15:30:39+01:00",
+    "description" : "This profile is used to capture the location data of SMART VA Data collection process",
+    "status" : {
+      "class" : "colsd",
+      "owner" : "CDC",
+      "link" : "http://cdc.gov",
+      "status" : "Draft"
+    }
+  },
+  "StructureDefinition/va-patient" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 9,
+    "source" : "fsh-generated/resources/StructureDefinition-va-patient.json",
+    "sourceTail" : "StructureDefinition-va-patient.json",
+    "path" : "StructureDefinition-va-patient.html",
+    "url" : "http://smartva.org/StructureDefinition/va-patient",
+    "version" : "0.1.0",
+    "name" : "SmartVAPatient",
+    "title" : "Verbal Autopsy Patient",
+    "date" : "2024-03-12T15:30:39+01:00",
+    "description" : "Sample SMART Verbal Autopsy Patient Profile",
+    "status" : {
+      "class" : "colsd",
+      "owner" : "CDC",
+      "link" : "http://cdc.gov",
+      "status" : "Draft"
+    }
+  },
+  "ValueSet/smart-va-hiv-mortality-region-vs" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 10,
+    "source" : "fsh-generated/resources/ValueSet-smart-va-hiv-mortality-region-vs.json",
+    "sourceTail" : "ValueSet-smart-va-hiv-mortality-region-vs.json",
+    "path" : "ValueSet-smart-va-hiv-mortality-region-vs.html",
+    "url" : "https://smartva.org/fhir/ValueSet/smart-va-hiv-mortality-region-vs",
+    "version" : "0.1.0",
+    "name" : "SMARTVAHIVMortalityRegionVS",
+    "title" : "SMART VA HIV Mortality Region Value Set",
+    "experimental" : true,
+    "date" : "2024-03-12T15:30:39+01:00",
+    "description" : "SMART VA HIV Mortality Region Value Set to capture HIV prevelance of a location",
+    "status" : {
+      "class" : "colsd",
+      "owner" : "CDC",
+      "link" : "http://cdc.gov",
+      "status" : "Draft"
+    }
+  },
+  "ValueSet/smart-va-level-of-education-valueset" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 11,
+    "source" : "fsh-generated/resources/ValueSet-smart-va-level-of-education-valueset.json",
+    "sourceTail" : "ValueSet-smart-va-level-of-education-valueset.json",
+    "path" : "ValueSet-smart-va-level-of-education-valueset.html",
+    "url" : "http://smartva.org/fhir/ValueSet/smart-va-level-of-education-valueset",
+    "version" : "0.1.0",
+    "name" : "SMARTVALevelofEducationVS",
+    "title" : "SMART Verbal Autopsy Level of Education ValueSet",
+    "experimental" : true,
+    "date" : "2024-03-12T15:30:39+01:00",
+    "description" : "This ValueSet contains values related to the SMART Verbal Autopsy level of education of the decseaed person.",
+    "status" : {
+      "class" : "colsd",
+      "owner" : "CDC",
+      "link" : "http://cdc.gov",
+      "status" : "Draft"
+    }
+  },
+  "ValueSet/smart-va-malaria-mortality-region-vs" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 12,
+    "source" : "fsh-generated/resources/ValueSet-smart-va-malaria-mortality-region-vs.json",
+    "sourceTail" : "ValueSet-smart-va-malaria-mortality-region-vs.json",
+    "path" : "ValueSet-smart-va-malaria-mortality-region-vs.html",
+    "url" : "https://smartva.org/fhir/ValueSet/smart-va-malaria-mortality-region-vs",
+    "version" : "0.1.0",
+    "name" : "SMARTVAMalarioMortalityRegionVS",
+    "title" : "SMART Va Malaria Mortality Region ValueSet",
+    "experimental" : true,
+    "date" : "2024-03-12T15:30:39+01:00",
+    "description" : "ValueSet to capture the region Malaria mortality prevelance for SMART verbal autopsy",
+    "status" : {
+      "class" : "colsd",
+      "owner" : "CDC",
+      "link" : "http://cdc.gov",
+      "status" : "Draft"
+    }
+  },
+  "ValueSet/smart-va-weathers-seasons-vs" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 13,
+    "source" : "fsh-generated/resources/ValueSet-smart-va-weathers-seasons-vs.json",
+    "sourceTail" : "ValueSet-smart-va-weathers-seasons-vs.json",
+    "path" : "ValueSet-smart-va-weathers-seasons-vs.html",
+    "url" : "http://smartva.org/fhir/ValueSets/smart-va-weathers-seasons-vs",
+    "version" : "0.1.0",
+    "name" : "SMARTVAWeatherSeasonsVS",
+    "title" : "SMART Verbal Autopsy Weather Seasons ValueSet",
+    "date" : "2024-03-12T15:30:39+01:00",
+    "description" : "SMART Verbal Autopsy valueset for describing weather seasons",
+    "status" : {
+      "class" : "colsd",
+      "owner" : "CDC",
+      "link" : "http://cdc.gov",
+      "status" : "Draft"
+    }
+  }
+}

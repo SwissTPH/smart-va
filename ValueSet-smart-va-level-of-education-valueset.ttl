@@ -1,0 +1,38 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://smartva.org/ValueSet/smart-va-level-of-education-valueset> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "smart-va-level-of-education-valueset"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-smart-va-level-of-education-codesystem.html\"><code>https://smartva.org/fhir/CodeSystem/smart-va-level-of-education-codesystem</code></a></li></ul></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://smartva.org/fhir/ValueSet/smart-va-level-of-education-valueset"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "SMARTVALevelofEducationVS"] ; # 
+  fhir:title [ fhir:v "SMART Verbal Autopsy Level of Education ValueSet"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2024-03-12T15:30:39+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "CDC"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "CDC" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://cdc.gov" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ValueSet contains values related to the SMART Verbal Autopsy level of education of the decseaed person."] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "https://smartva.org/fhir/CodeSystem/smart-va-level-of-education-codesystem"^^xsd:anyURI ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

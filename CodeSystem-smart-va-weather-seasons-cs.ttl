@@ -1,0 +1,45 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://smartva.org/CodeSystem/smart-va-weather-seasons-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "smart-va-weather-seasons-cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>https://smartva.org/fhir/CodeSystem/smart-va-weather-seasons-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">wet<a name=\"smart-va-weather-seasons-cs-wet\"> </a></td><td>Wet</td></tr><tr><td style=\"white-space:nowrap\">dry<a name=\"smart-va-weather-seasons-cs-dry\"> </a></td><td>Dry</td></tr><tr><td style=\"white-space:nowrap\">dk<a name=\"smart-va-weather-seasons-cs-dk\"> </a></td><td>Don't Know</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "https://smartva.org/fhir/CodeSystem/smart-va-weather-seasons-cs"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "SMARTVAWeatherSeasonsCS"] ; # 
+  fhir:title [ fhir:v "SMART Verbal Autopsy Weather Seasons Code System"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2024-03-12T15:30:39+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "CDC"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "CDC" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://cdc.gov" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "CodeSytem to describe the weather seasons for the verbal autosy SMART guidelines"] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "3"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "wet" ] ;
+     fhir:display [ fhir:v "Wet" ]
+  ] [
+     fhir:code [ fhir:v "dry" ] ;
+     fhir:display [ fhir:v "Dry" ]
+  ] [
+     fhir:code [ fhir:v "dk" ] ;
+     fhir:display [ fhir:v "Don't Know" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

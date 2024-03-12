@@ -1,0 +1,1151 @@
+{% raw %}<pre class="json" style="white-space: pre; text-wrap: nowrap;"><code style="white-space: pre; text-wrap: nowrap;">
+{
+  "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide">resourceType</a>" : "ImplementationGuide",
+  "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.id">id</a>" : "who.fhir.smart-ig-empty",
+  "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.meta">meta</a>" : {
+    "<a href="http://hl7.org/fhir/R4B/resource.html#Meta#Meta.profile">profile</a>" : [
+      "SMARTImplementationGuide"
+    ]
+  },
+  "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.text">text</a>" : {
+    "<a href="http://hl7.org/fhir/R4B/narrative.html#Narrative#Narrative.status">status</a>" : "extensions",
+    "<a href="http://hl7.org/fhir/R4B/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h2&gt;VerbalAutopsySMARTGuideline&lt;/h2&gt;&lt;p&gt;The official URL for this implementation guide is: &lt;/p&gt;&lt;pre&gt;http://smartva.org/ImplementationGuide/who.fhir.smart-ig-empty&lt;/pre&gt;&lt;div&gt;&lt;p&gt;The SMART guideline for Verbal Autopsy data exchange and interoperability&lt;/p&gt;\n&lt;/div&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+  },
+  "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.url">url</a>" : "http://smartva.org/ImplementationGuide/who.fhir.smart-ig-empty",
+  "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.version">version</a>" : "0.1.0",
+  "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.name">name</a>" : "VerbalAutopsySMARTGuideline",
+  "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.title">title</a>" : "Verbal Autopsy SMART Guideline",
+  "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.status">status</a>" : "draft",
+  "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.date">date</a>" : "2024-03-12T15:30:39+01:00",
+  "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.publisher">publisher</a>" : "CDC",
+  "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.contact">contact</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4B/metadatatypes.html#ContactDetail#ContactDetail.name">name</a>" : "CDC",
+      "<a href="http://hl7.org/fhir/R4B/metadatatypes.html#ContactDetail#ContactDetail.telecom">telecom</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4B/datatypes.html#ContactPoint#ContactPoint.system">system</a>" : "url",
+          "<a href="http://hl7.org/fhir/R4B/datatypes.html#ContactPoint#ContactPoint.value">value</a>" : "http://cdc.gov"
+        }
+      ]
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.description">description</a>" : "The SMART guideline for Verbal Autopsy data exchange and interoperability",
+  "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.packageId">packageId</a>" : "who.fhir.smart-ig-empty",
+  "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.license">license</a>" : "CC0-1.0",
+  "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.fhirVersion">fhirVersion</a>" : [
+    "4.3.0"
+  ],
+  "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.dependsOn">dependsOn</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.dependsOn.id">id</a>" : "hl7tx",
+      "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.dependsOn.extension">extension</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment",
+          "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueMarkdown</a>" : "Automatically added as a dependency - all IGs depend on HL7 Terminology"
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.dependsOn.uri">uri</a>" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
+      "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.dependsOn.packageId">packageId</a>" : "hl7.terminology.r4",
+      "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.dependsOn.version">version</a>" : "5.3.0"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.dependsOn.id">id</a>" : "hl7ext",
+      "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.dependsOn.extension">extension</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment",
+          "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueMarkdown</a>" : "Automatically added as a dependency - all IGs depend on the HL7 Extension Pack"
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.dependsOn.uri">uri</a>" : "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions",
+      "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.dependsOn.packageId">packageId</a>" : "hl7.fhir.uv.extensions.r4",
+      "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.dependsOn.version">version</a>" : "1.0.0"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.dependsOn.id">id</a>" : "who_base",
+      "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.dependsOn.uri">uri</a>" : "http://smart.who.int/base/ImplementationGuide/who.base",
+      "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.dependsOn.packageId">packageId</a>" : "who.base",
+      "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.dependsOn.version">version</a>" : "current"
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition">definition</a>" : {
+    "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.extension">extension</a>" : [
+      {
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "code",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "copyrightyear"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "value",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "2024+"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "code",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "releaselabel"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "value",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "ci-build"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "code",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "autoload-resources"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "value",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "true"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "code",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "path-liquid"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "value",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "template/liquid"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "code",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "path-liquid"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "value",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "input/liquid"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "code",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "path-qa"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "value",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "temp/qa"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "code",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "path-temp"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "value",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "temp/pages"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "code",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "path-output"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "value",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "output"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "code",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "path-suppressed-warnings"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "value",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "input/ignoreWarnings.txt"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "code",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "path-history"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "value",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "http://smartva.org/history.html"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "code",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "template-html"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "value",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "template-page.html"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "code",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "template-md"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "value",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "template-page-md.html"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "code",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "apply-contact"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "value",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "true"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "code",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "apply-context"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "value",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "true"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "code",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "apply-copyright"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "value",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "true"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "code",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "apply-jurisdiction"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "value",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "true"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "code",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "apply-license"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "value",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "true"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "code",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "apply-publisher"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "value",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "true"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "code",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "apply-version"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "value",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "true"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "code",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "apply-wg"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "value",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "true"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "code",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "active-tables"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "value",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "true"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "code",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "fmm-definition"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "value",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "http://hl7.org/fhir/versions.html#maturity"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "code",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "propagate-status"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "value",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "true"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "code",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "excludelogbinaryformat"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "value",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "true"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "code",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "tabbed-snapshots"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "value",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "true"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency",
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueCode</a>" : "hl7.fhir.uv.tools#0.1.0"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "code",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueCode</a>" : "copyrightyear"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "value",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "2024+"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "code",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueCode</a>" : "releaselabel"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "value",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "ci-build"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "code",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueCode</a>" : "autoload-resources"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "value",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "true"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "code",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueCode</a>" : "path-liquid"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "value",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "template/liquid"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "code",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueCode</a>" : "path-liquid"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "value",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "input/liquid"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "code",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueCode</a>" : "path-qa"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "value",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "temp/qa"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "code",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueCode</a>" : "path-temp"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "value",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "temp/pages"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "code",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueCode</a>" : "path-output"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "value",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "output"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "code",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueCode</a>" : "path-suppressed-warnings"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "value",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "input/ignoreWarnings.txt"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "code",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueCode</a>" : "path-history"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "value",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "http://smartva.org/history.html"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "code",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueCode</a>" : "template-html"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "value",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "template-page.html"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "code",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueCode</a>" : "template-md"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "value",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "template-page-md.html"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "code",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueCode</a>" : "apply-contact"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "value",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "true"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "code",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueCode</a>" : "apply-context"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "value",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "true"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "code",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueCode</a>" : "apply-copyright"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "value",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "true"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "code",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueCode</a>" : "apply-jurisdiction"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "value",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "true"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "code",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueCode</a>" : "apply-license"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "value",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "true"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "code",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueCode</a>" : "apply-publisher"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "value",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "true"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "code",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueCode</a>" : "apply-version"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "value",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "true"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "code",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueCode</a>" : "apply-wg"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "value",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "true"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "code",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueCode</a>" : "active-tables"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "value",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "true"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "code",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueCode</a>" : "fmm-definition"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "value",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "http://hl7.org/fhir/versions.html#maturity"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "code",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueCode</a>" : "propagate-status"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "value",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "true"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "code",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueCode</a>" : "excludelogbinaryformat"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "value",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "true"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "code",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueCode</a>" : "tabbed-snapshots"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "value",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "true"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      }
+    ],
+    "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.resource">resource</a>" : [
+      {
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.resource.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "Patient"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.resource.reference">reference</a>" : {
+          <a href="Patient-example.html" style="color: Maroon">&#x1F517;</a> "<a href="http://hl7.org/fhir/R4B/references.html#Reference#Reference.reference">reference</a>" : "Patient/example"
+        },
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.resource.name">name</a>" : "example",
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.resource.example[x]">exampleBoolean</a>" : true
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.resource.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "CodeSystem"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.resource.reference">reference</a>" : {
+          <a href="CodeSystem-smart-va-hiv-moratality-region-cs.html" style="color: Maroon">&#x1F517;</a> "<a href="http://hl7.org/fhir/R4B/references.html#Reference#Reference.reference">reference</a>" : "CodeSystem/smart-va-hiv-moratality-region-cs"
+        },
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.resource.name">name</a>" : "SMART VA HIV Mortalirty Region Code System",
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.resource.description">description</a>" : "HIV mortaliry prevelance CodeSystem for the SMART verbal autopsy guideline",
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.resource.example[x]">exampleBoolean</a>" : false
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.resource.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "ValueSet"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.resource.reference">reference</a>" : {
+          <a href="ValueSet-smart-va-hiv-mortality-region-vs.html" style="color: Maroon">&#x1F517;</a> "<a href="http://hl7.org/fhir/R4B/references.html#Reference#Reference.reference">reference</a>" : "ValueSet/smart-va-hiv-mortality-region-vs"
+        },
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.resource.name">name</a>" : "SMART VA HIV Mortality Region Value Set",
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.resource.description">description</a>" : "SMART VA HIV Mortality Region Value Set to capture HIV prevelance of a location",
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.resource.example[x]">exampleBoolean</a>" : false
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.resource.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "StructureDefinition:resource"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.resource.reference">reference</a>" : {
+          <a href="StructureDefinition-va-location.html" style="color: Maroon">&#x1F517;</a> "<a href="http://hl7.org/fhir/R4B/references.html#Reference#Reference.reference">reference</a>" : "StructureDefinition/va-location"
+        },
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.resource.name">name</a>" : "SMART VA Location Profile",
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.resource.description">description</a>" : "This profile is used to capture the location data of SMART VA Data collection process",
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.resource.example[x]">exampleBoolean</a>" : false
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.resource.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "ValueSet"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.resource.reference">reference</a>" : {
+          <a href="ValueSet-smart-va-malaria-mortality-region-vs.html" style="color: Maroon">&#x1F517;</a> "<a href="http://hl7.org/fhir/R4B/references.html#Reference#Reference.reference">reference</a>" : "ValueSet/smart-va-malaria-mortality-region-vs"
+        },
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.resource.name">name</a>" : "SMART Va Malaria Mortality Region ValueSet",
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.resource.description">description</a>" : "ValueSet to capture the region Malaria mortality prevelance for SMART verbal autopsy",
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.resource.example[x]">exampleBoolean</a>" : false
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.resource.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "StructureDefinition:extension"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.resource.reference">reference</a>" : {
+          <a href="StructureDefinition-smart-va-level-of-education-ext.html" style="color: Maroon">&#x1F517;</a> "<a href="http://hl7.org/fhir/R4B/references.html#Reference#Reference.reference">reference</a>" : "StructureDefinition/smart-va-level-of-education-ext"
+        },
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.resource.name">name</a>" : "SMART VA Patient Level of Education Extension",
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.resource.description">description</a>" : "This extension includes the deceased patient's level of education.",
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.resource.example[x]">exampleBoolean</a>" : false
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.resource.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "StructureDefinition:extension"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.resource.reference">reference</a>" : {
+          <a href="StructureDefinition-smart-va-weather-season-ext.html" style="color: Maroon">&#x1F517;</a> "<a href="http://hl7.org/fhir/R4B/references.html#Reference#Reference.reference">reference</a>" : "StructureDefinition/smart-va-weather-season-ext"
+        },
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.resource.name">name</a>" : "SMART VA Weather Season Extension",
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.resource.description">description</a>" : "SMART VA extension for decribing season of weather",
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.resource.example[x]">exampleBoolean</a>" : false
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.resource.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "CodeSystem"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.resource.reference">reference</a>" : {
+          <a href="CodeSystem-smart-va-level-of-education-codesystem.html" style="color: Maroon">&#x1F517;</a> "<a href="http://hl7.org/fhir/R4B/references.html#Reference#Reference.reference">reference</a>" : "CodeSystem/smart-va-level-of-education-codesystem"
+        },
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.resource.name">name</a>" : "SMART Verbal Autopsy Level of Education CodeSystem",
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.resource.description">description</a>" : "This CodeSystem contains values related to the SMART Verbal Autopsy level of education of the decseaed person.",
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.resource.example[x]">exampleBoolean</a>" : false
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.resource.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "ValueSet"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.resource.reference">reference</a>" : {
+          <a href="ValueSet-smart-va-level-of-education-valueset.html" style="color: Maroon">&#x1F517;</a> "<a href="http://hl7.org/fhir/R4B/references.html#Reference#Reference.reference">reference</a>" : "ValueSet/smart-va-level-of-education-valueset"
+        },
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.resource.name">name</a>" : "SMART Verbal Autopsy Level of Education ValueSet",
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.resource.description">description</a>" : "This ValueSet contains values related to the SMART Verbal Autopsy level of education of the decseaed person.",
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.resource.example[x]">exampleBoolean</a>" : false
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.resource.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "CodeSystem"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.resource.reference">reference</a>" : {
+          <a href="CodeSystem-smart-va-weather-seasons-cs.html" style="color: Maroon">&#x1F517;</a> "<a href="http://hl7.org/fhir/R4B/references.html#Reference#Reference.reference">reference</a>" : "CodeSystem/smart-va-weather-seasons-cs"
+        },
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.resource.name">name</a>" : "SMART Verbal Autopsy Weather Seasons Code System",
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.resource.description">description</a>" : "CodeSytem to describe the weather seasons for the verbal autosy SMART guidelines",
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.resource.example[x]">exampleBoolean</a>" : false
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.resource.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "ValueSet"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.resource.reference">reference</a>" : {
+          <a href="ValueSet-smart-va-weathers-seasons-vs.html" style="color: Maroon">&#x1F517;</a> "<a href="http://hl7.org/fhir/R4B/references.html#Reference#Reference.reference">reference</a>" : "ValueSet/smart-va-weathers-seasons-vs"
+        },
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.resource.name">name</a>" : "SMART Verbal Autopsy Weather Seasons ValueSet",
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.resource.description">description</a>" : "SMART Verbal Autopsy valueset for describing weather seasons",
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.resource.example[x]">exampleBoolean</a>" : false
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.resource.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "CodeSystem"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.resource.reference">reference</a>" : {
+          <a href="CodeSystem-smart-va-malaria-mortality-region-cs.html" style="color: Maroon">&#x1F517;</a> "<a href="http://hl7.org/fhir/R4B/references.html#Reference#Reference.reference">reference</a>" : "CodeSystem/smart-va-malaria-mortality-region-cs"
+        },
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.resource.name">name</a>" : "SMARTVA Malaria Mortality Region Code System",
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.resource.description">description</a>" : "Code system for the malaria prevelance of region where the death occurred",
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.resource.example[x]">exampleBoolean</a>" : false
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.resource.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "StructureDefinition:resource"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.resource.reference">reference</a>" : {
+          <a href="StructureDefinition-va-patient.html" style="color: Maroon">&#x1F517;</a> "<a href="http://hl7.org/fhir/R4B/references.html#Reference#Reference.reference">reference</a>" : "StructureDefinition/va-patient"
+        },
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.resource.name">name</a>" : "Verbal Autopsy Patient",
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.resource.description">description</a>" : "Sample SMART Verbal Autopsy Patient Profile",
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.resource.example[x]">exampleBoolean</a>" : false
+      }
+    ],
+    "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page">page</a>" : {
+      "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.name[x]">nameUrl</a>" : "toc.html",
+      "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.title">title</a>" : "Table of Contents",
+      "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.generation">generation</a>" : "html",
+      "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.page">page</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.name[x]">nameUrl</a>" : "index.html",
+          "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.title">title</a>" : "Home",
+          "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.generation">generation</a>" : "markdown",
+          "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.page">page</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.name[x]">nameUrl</a>" : "changes.html",
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.title">title</a>" : "Changes",
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.generation">generation</a>" : "markdown"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.name[x]">nameUrl</a>" : "dependencies.html",
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.title">title</a>" : "Dependencies",
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.generation">generation</a>" : "markdown"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.name[x]">nameUrl</a>" : "references.html",
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.title">title</a>" : "References",
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.generation">generation</a>" : "markdown"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.name[x]">nameUrl</a>" : "adapting.html",
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.title">title</a>" : "Adapting Guidelines for Country use",
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.generation">generation</a>" : "markdown"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.name[x]">nameUrl</a>" : "license.html",
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.title">title</a>" : "License",
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.generation">generation</a>" : "markdown"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.name[x]">nameUrl</a>" : "business-requirements.html",
+          "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.title">title</a>" : "Business Requirements",
+          "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.generation">generation</a>" : "markdown",
+          "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.page">page</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.name[x]">nameUrl</a>" : "concepts.html",
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.title">title</a>" : "Concepts",
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.generation">generation</a>" : "markdown"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.name[x]">nameUrl</a>" : "personas.html",
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.title">title</a>" : "Generic Personas",
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.generation">generation</a>" : "markdown"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.name[x]">nameUrl</a>" : "scenarios.html",
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.title">title</a>" : "User Scenarios",
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.generation">generation</a>" : "markdown"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.name[x]">nameUrl</a>" : "business-processes.html",
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.title">title</a>" : "Business Processes",
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.generation">generation</a>" : "markdown"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.name[x]">nameUrl</a>" : "dictionary.html",
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.title">title</a>" : "Data Dictionary",
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.generation">generation</a>" : "markdown"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.name[x]">nameUrl</a>" : "decision-logic.html",
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.title">title</a>" : "Decision-support logic",
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.generation">generation</a>" : "markdown"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.name[x]">nameUrl</a>" : "indicators.html",
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.title">title</a>" : "Indicator and Performance Metrics",
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.generation">generation</a>" : "markdown"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.name[x]">nameUrl</a>" : "functional-requirements.html",
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.title">title</a>" : "Functional Requirements",
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.generation">generation</a>" : "markdown"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.name[x]">nameUrl</a>" : "non-functional-requirements.html",
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.title">title</a>" : "Non-functional Requirements",
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.generation">generation</a>" : "markdown"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.name[x]">nameUrl</a>" : "data-models-and-exchange.html",
+          "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.title">title</a>" : "Data Models and Exchange",
+          "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.generation">generation</a>" : "markdown",
+          "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.page">page</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.name[x]">nameUrl</a>" : "system-actors.html",
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.title">title</a>" : "System Actors",
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.generation">generation</a>" : "markdown"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.name[x]">nameUrl</a>" : "sequence-diagrams.html",
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.title">title</a>" : "Sequence Diagrams",
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.generation">generation</a>" : "markdown"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.name[x]">nameUrl</a>" : "transactions.html",
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.title">title</a>" : "Transactions",
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.generation">generation</a>" : "markdown"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.name[x]">nameUrl</a>" : "indicators-measures.html",
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.title">title</a>" : "Indicators and Measures",
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.generation">generation</a>" : "markdown"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.name[x]">nameUrl</a>" : "codings.html",
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.title">title</a>" : "Codings",
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.generation">generation</a>" : "markdown"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.name[x]">nameUrl</a>" : "deployment.html",
+          "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.title">title</a>" : "Deployment",
+          "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.generation">generation</a>" : "markdown",
+          "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.page">page</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.name[x]">nameUrl</a>" : "security-privacy.html",
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.title">title</a>" : "Security and Privacy Considerations",
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.generation">generation</a>" : "markdown"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.name[x]">nameUrl</a>" : "testing.html",
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.title">title</a>" : "Testing",
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.generation">generation</a>" : "markdown"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.name[x]">nameUrl</a>" : "test-data.html",
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.title">title</a>" : "Test Data",
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.generation">generation</a>" : "markdown"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.name[x]">nameUrl</a>" : "reference-implementations.html",
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.title">title</a>" : "Reference Implementations",
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.generation">generation</a>" : "markdown"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.name[x]">nameUrl</a>" : "trust_domain.html",
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.title">title</a>" : "Trust Domains",
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.generation">generation</a>" : "markdown"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.name[x]">nameUrl</a>" : "downloads.html",
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.title">title</a>" : "Downloads",
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.generation">generation</a>" : "markdown"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.name[x]">nameUrl</a>" : "indices.html",
+          "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.title">title</a>" : "Indices",
+          "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.generation">generation</a>" : "markdown",
+          "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.page">page</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.name[x]">nameUrl</a>" : "artifacts.html",
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.title">title</a>" : "Artifact Index",
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.generation">generation</a>" : "html"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.name[x]">nameUrl</a>" : "maps.html",
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.title">title</a>" : "Mappings",
+              "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.page.generation">generation</a>" : "markdown"
+            }
+          ]
+        }
+      ]
+    },
+    "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.parameter">parameter</a>" : [
+      {
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.parameter.code">code</a>" : "path-resource",
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.parameter.value">value</a>" : "input/capabilities"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.parameter.code">code</a>" : "path-resource",
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.parameter.value">value</a>" : "input/examples"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.parameter.code">code</a>" : "path-resource",
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.parameter.value">value</a>" : "input/extensions"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.parameter.code">code</a>" : "path-resource",
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.parameter.value">value</a>" : "input/models"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.parameter.code">code</a>" : "path-resource",
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.parameter.value">value</a>" : "input/operations"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.parameter.code">code</a>" : "path-resource",
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.parameter.value">value</a>" : "input/profiles"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.parameter.code">code</a>" : "path-resource",
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.parameter.value">value</a>" : "input/resources"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.parameter.code">code</a>" : "path-resource",
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.parameter.value">value</a>" : "input/vocabulary"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.parameter.code">code</a>" : "path-resource",
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.parameter.value">value</a>" : "input/maps"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.parameter.code">code</a>" : "path-resource",
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.parameter.value">value</a>" : "input/testing"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.parameter.code">code</a>" : "path-resource",
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.parameter.value">value</a>" : "input/history"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.parameter.code">code</a>" : "path-resource",
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.parameter.value">value</a>" : "fsh-generated/resources"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.parameter.code">code</a>" : "path-pages",
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.parameter.value">value</a>" : "template/config"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.parameter.code">code</a>" : "path-pages",
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.parameter.value">value</a>" : "input/images"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.parameter.code">code</a>" : "path-tx-cache",
+        "<a href="http://hl7.org/fhir/R4B/implementationguide.html#ImplementationGuide.definition.parameter.value">value</a>" : "input-cache/txcache"
+      }
+    ]
+  }
+}</code></pre>
+{% endraw %}

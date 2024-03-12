@@ -1,0 +1,21 @@
+---
+---
+<!-- get modelType -->
+{% include fragment-modelType.html id='smart-va-level-of-education-ext' %}
+
+{% include fragment-pagebegin.html %}
+
+<div style="counter-reset: section 10" class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Publish Box goes here</p><!--EndReleaseHeader-->
+  {% include fragment-profile-navtabs.html type='StructureDefinition' id='smart-va-level-of-education-ext' active='history' %}
+
+  <a name="root"> </a>
+  <h2 id="root">{{modelType}}: SMARTVALevelofEducationEXT - Change History</h2>
+{% include fragment-simpletable.html %}
+  <p>Changes in the smart-va-level-of-education-ext {{modelType | downcase}}.</p>
+
+  {%include StructureDefinition-smart-va-level-of-education-ext-history.xhtml%}
+
+</div>
+{% assign includetabscripts = 'true' %}
+{% include fragment-pageend.html %}

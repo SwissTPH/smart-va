@@ -1,0 +1,216 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://hl7.org/fhir/administrative-gender",
+      "version" : "4.3.0",
+      "status" : "active",
+      "name" : "AdministrativeGender",
+      "title" : "AdministrativeGender",
+      "description" : "The gender of a person used for administrative purposes.",
+      "oids" : ["2.16.840.1.113883.4.642.1.2"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4B/valueset-administrative-gender.html" : "AdministrativeGender"
+    },
+    {
+      "url" : "http://hl7.org/fhir/days-of-week",
+      "version" : "4.3.0",
+      "status" : "active",
+      "name" : "DaysOfWeek",
+      "title" : "DaysOfWeek",
+      "description" : "The days of the week.",
+      "oids" : ["2.16.840.1.113883.4.642.4.513"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4B/valueset-days-of-week.html" : "DaysOfWeek"
+    },
+    {
+      "url" : "http://hl7.org/fhir/identifier-use",
+      "version" : "4.3.0",
+      "status" : "active",
+      "name" : "IdentifierUse",
+      "title" : "IdentifierUse",
+      "description" : "Identifies the purpose for this identifier, if known .",
+      "oids" : ["2.16.840.1.113883.4.642.1.58"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4B/valueset-identifier-use.html" : "IdentifierUse"
+    },
+    {
+      "url" : "http://hl7.org/fhir/link-type",
+      "version" : "4.3.0",
+      "status" : "active",
+      "name" : "LinkType",
+      "title" : "LinkType",
+      "description" : "The type of link between this patient resource and another patient resource.",
+      "oids" : ["2.16.840.1.113883.4.642.4.424"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4B/valueset-link-type.html" : "LinkType"
+    },
+    {
+      "url" : "http://hl7.org/fhir/location-mode",
+      "version" : "4.3.0",
+      "status" : "draft",
+      "name" : "LocationMode",
+      "title" : "LocationMode",
+      "description" : "Indicates whether a resource instance represents a specific location or a class of locations.",
+      "oids" : ["2.16.840.1.113883.4.642.4.331"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4B/valueset-location-mode.html" : "LocationMode"
+    },
+    {
+      "url" : "http://hl7.org/fhir/location-status",
+      "version" : "4.3.0",
+      "status" : "draft",
+      "name" : "LocationStatus",
+      "title" : "LocationStatus",
+      "description" : "Indicates whether the location is still in use.",
+      "oids" : ["2.16.840.1.113883.4.642.4.333"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4B/valueset-location-status.html" : "LocationStatus"
+    },
+    {
+      "url" : "http://smartva.org/fhir/CodeSystem/smart-va-malaria-mortality-region-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "SMARTVAMalariaMortalityRegionCS",
+      "title" : "SMARTVA Malaria Mortality Region Code System",
+      "description" : "Code system for the malaria prevelance of region where the death occurred",
+      "uses" : {
+      },
+      "ValueSet-smart-va-malaria-mortality-region-vs.html" : "SMART Va Malaria Mortality Region ValueSet"
+    },
+    {
+      "url" : "http://smartva.org/fhir/CodingSystem/smart-va-hiv-moratality-region-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "SMARTVAHIVMoratalityRegionCS",
+      "title" : "SMART VA HIV Mortalirty Region Code System",
+      "description" : "HIV mortaliry prevelance CodeSystem for the SMART verbal autopsy guideline",
+      "uses" : {
+      },
+      "ValueSet-smart-va-hiv-mortality-region-vs.html" : "SMART VA HIV Mortality Region Value Set"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/location-physical-type",
+      "version" : "1.0.0",
+      "status" : "draft",
+      "name" : "LocationType",
+      "title" : "Location type",
+      "description" : "This example value set defines a set of codes that can be used to indicate the physical form of the Location.\r\rThis includes several 'non physical' codes which are still considered a location.",
+      "oids" : ["2.16.840.1.113883.4.642.1.1108"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4B/valueset-location-physical-type.html" : "LocationType"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/v2-0116",
+      "version" : "2.2.0",
+      "status" : "active",
+      "name" : "BedStatus",
+      "title" : "bedStatus",
+      "description" : "Code system of concepts which specify the state of a bed in an inpatient setting, and is used to determine if a patient may be assigned to it or not.  Used in HL7 Version 2.x messaging in the DLD and PV1 segments.",
+      "oids" : ["2.16.840.1.113883.18.47"],
+      "uses" : {
+      },
+      "http://terminology.hl7.org/5.3.0/ValueSet-v2-0116.html" : "hl7VS-bedStatus"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/v2-0131",
+      "version" : "2.1.0",
+      "status" : "active",
+      "name" : "ContactRole2",
+      "title" : "contactRole2",
+      "description" : "Code system of concepts which specify a relationship role that the next of kin/associated parties plays with regard to the patient. Also used in referrals, for example, it may be necessary to identify the contact representative at the clinic that sent a referral. Used in HL7 Version 2 messaging in the NK1 and CTD segments after 2.5, when it replace 2.16.840.1.113883.18.57.",
+      "oids" : ["2.16.840.1.113883.18.58"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4B/valueset-patient-contactrelationship.html" : "Patient Contact Relationship"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "version" : "3.0.0",
+      "status" : "active",
+      "name" : "IdentifierType",
+      "title" : "identifierType",
+      "description" : "HL7-defined code system of concepts specifying type of identifier. Used in HL7 Version 2.x messaging data types CX, PLN, PPN, XCN and XON.",
+      "oids" : ["2.16.840.1.113883.18.108"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4B/valueset-identifier-type.html" : "IdentifierType"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "version" : "2.1.0",
+      "status" : "active",
+      "name" : "MaritalStatus",
+      "title" : "MaritalStatus",
+      "description" : "\\* \\* \\* No description supplied \\* \\* \\*\r\n\r\n*Open Issue:* The specific meanings of these codes can vary somewhat by jurisdiction and implementation so caution should be used when determining equivalency.\r\n\r\n*Open Issue:* fixing and completion of the hierarchy and proper good definitions of all the concepts is badly needed.",
+      "oids" : ["2.16.840.1.113883.5.2"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4B/valueset-marital-status.html" : "MaritalStatus"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+      "version" : "2.1.0",
+      "status" : "active",
+      "name" : "NullFlavor",
+      "title" : "NullFlavor",
+      "description" : "A collection of codes specifying why a valid value is not present.",
+      "oids" : ["2.16.840.1.113883.5.1008"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4B/valueset-marital-status.html" : "MaritalStatus"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+      "version" : "2.2.0",
+      "status" : "active",
+      "name" : "RoleCode",
+      "title" : "RoleCode",
+      "description" : "A set of codes further specifying the kind of Role; specific classification codes for further qualifying RoleClass codes.",
+      "oids" : ["2.16.840.1.113883.5.111"],
+      "uses" : {
+      },
+      "http://terminology.hl7.org/5.3.0/ValueSet-v3-ServiceDeliveryLocationRoleType.html" : "ServiceDeliveryLocationRoleType"
+    },
+    {
+      "url" : "https://smartva.org/fhir/CodeSystem/smart-va-level-of-education-codesystem",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "SMARTVALevelOfEducationCS",
+      "title" : "SMART Verbal Autopsy Level of Education CodeSystem",
+      "description" : "This CodeSystem contains values related to the SMART Verbal Autopsy level of education of the decseaed person.",
+      "uses" : {
+      },
+      "ValueSet-smart-va-level-of-education-valueset.html" : "SMART Verbal Autopsy Level of Education ValueSet"
+    },
+    {
+      "url" : "https://smartva.org/fhir/CodeSystem/smart-va-weather-seasons-cs",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "SMARTVAWeatherSeasonsCS",
+      "title" : "SMART Verbal Autopsy Weather Seasons Code System",
+      "description" : "CodeSytem to describe the weather seasons for the verbal autosy SMART guidelines",
+      "uses" : {
+      },
+      "ValueSet-smart-va-weathers-seasons-vs.html" : "SMART Verbal Autopsy Weather Seasons ValueSet"
+    },
+    {
+      "url" : "urn:ietf:bcp:47",
+      "version" : "2.0.1",
+      "status" : "active",
+      "name" : "Ietf3066",
+      "title" : "Tags for the Identification of Languages",
+      "description" : "Older value from OID registry.  Superceded; see recommendations in BCP-47.",
+      "oids" : ["2.16.840.1.113883.6.121"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4B/valueset-languages.html" : "Common Languages"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="smart-va-weather-seasons-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This  code system <code>https://smartva.org/fhir/CodeSystem/smart-va-weather-seasons-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">wet<a name="smart-va-weather-seasons-cs-wet"> </a></td><td>Wet</td></tr><tr><td style="white-space:nowrap">dry<a name="smart-va-weather-seasons-cs-dry"> </a></td><td>Dry</td></tr><tr><td style="white-space:nowrap">dk<a name="smart-va-weather-seasons-cs-dk"> </a></td><td>Don't Know</td></tr></table></div>
+  </text>
+  <url value="https://smartva.org/fhir/CodeSystem/smart-va-weather-seasons-cs"/>
+  <version value="0.1.0"/>
+  <name value="SMARTVAWeatherSeasonsCS"/>
+  <title value="SMART Verbal Autopsy Weather Seasons Code System"/>
+  <status value="active"/>
+  <experimental value="true"/>
+  <date value="2024-03-12T15:30:39+01:00"/>
+  <publisher value="CDC"/>
+  <contact>
+    <name value="CDC"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://cdc.gov"/>
+    </telecom>
+  </contact>
+  <description value="CodeSytem to describe the weather seasons for the verbal autosy SMART guidelines"/>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="wet"/>
+    <display value="Wet"/>
+  </concept>
+  <concept>
+    <code value="dry"/>
+    <display value="Dry"/>
+  </concept>
+  <concept>
+    <code value="dk"/>
+    <display value="Don't Know"/>
+  </concept>
+</CodeSystem>

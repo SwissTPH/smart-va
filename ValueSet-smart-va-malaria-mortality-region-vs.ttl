@@ -1,0 +1,38 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://smartva.org/ValueSet/smart-va-malaria-mortality-region-vs> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "smart-va-malaria-mortality-region-vs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-smart-va-malaria-mortality-region-cs.html\"><code>http://smartva.org/fhir/CodeSystem/smart-va-malaria-mortality-region-cs</code></a></li></ul></div>"
+  ] ; # 
+  fhir:url [ fhir:v "https://smartva.org/fhir/ValueSet/smart-va-malaria-mortality-region-vs"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "SMARTVAMalarioMortalityRegionVS"] ; # 
+  fhir:title [ fhir:v "SMART Va Malaria Mortality Region ValueSet"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2024-03-12T15:30:39+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "CDC"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "CDC" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://cdc.gov" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "ValueSet to capture the region Malaria mortality prevelance for SMART verbal autopsy"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "http://smartva.org/fhir/CodeSystem/smart-va-malaria-mortality-region-cs"^^xsd:anyURI ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

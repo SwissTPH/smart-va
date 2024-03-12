@@ -1,0 +1,85 @@
+{% raw %}<pre class="json" style="white-space: pre; text-wrap: nowrap;"><code class="language-json" style="white-space: pre; text-wrap: nowrap;">
+{
+  "<a href="http://hl7.org/fhir/R4B/patient.html#Patient">resourceType</a>" : "Patient",
+  "<a href="http://hl7.org/fhir/R4B/patient.html#Patient.id">id</a>" : "example",
+  "<a href="http://hl7.org/fhir/R4B/patient.html#Patient.meta">meta</a>" : {
+    "<a href="http://hl7.org/fhir/R4B/resource.html#Meta#Meta.profile">profile</a>" : [
+      <a href="http://hl7.org/fhir/R4B/patient.html" style="color: Maroon">&#x1F517;</a> "http://hl7.org/fhir/StructureDefinition/Patient"
+    ]
+  },
+  "<a href="http://hl7.org/fhir/R4B/patient.html#Patient.text">text</a>" : {
+    "<a href="http://hl7.org/fhir/R4B/narrative.html#Narrative#Narrative.status">status</a>" : "generated",
+    "<a href="http://hl7.org/fhir/R4B/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p style=\&quot;border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\&quot;&gt;&lt;b&gt;Amy V. Baxter &lt;/b&gt; female, DoB: 1987-02-20&lt;/p&gt;&lt;hr/&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;background-color: #f3f5da\&quot; title=\&quot;Record is active\&quot;&gt;Active:&lt;/td&gt;&lt;td&gt;false&lt;/td&gt;&lt;td style=\&quot;background-color: #f3f5da\&quot; title=\&quot;Known status of Patient\&quot;&gt;Deceased:&lt;/td&gt;&lt;td colspan=\&quot;3\&quot;&gt;true&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;background-color: #f3f5da\&quot; title=\&quot;Alternate names (see the one above)\&quot;&gt;Alt. Name:&lt;/td&gt;&lt;td colspan=\&quot;3\&quot;&gt;Amy V. Shaw (OLD)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;background-color: #f3f5da\&quot; title=\&quot;Ways to contact the Patient\&quot;&gt;Contact Details:&lt;/td&gt;&lt;td colspan=\&quot;3\&quot;&gt;&lt;ul&gt;&lt;li&gt;ph: 555-555-5555(HOME)&lt;/li&gt;&lt;li&gt;&lt;a href=\&quot;mailto:amy.shaw@example.com\&quot;&gt;amy.shaw@example.com&lt;/a&gt;&lt;/li&gt;&lt;li&gt;49 MEADOW ST MOUNDS OK 74047 US (OLD)&lt;/li&gt;&lt;li&gt;183 MOUNTAIN VIEW ST MOUNDS OK 74048 US &lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+  },
+  "<a href="http://hl7.org/fhir/R4B/patient.html#Patient.active">active</a>" : false,
+  "<a href="http://hl7.org/fhir/R4B/patient.html#Patient.name">name</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4B/datatypes.html#HumanName#HumanName.use">use</a>" : "old",
+      "<a href="http://hl7.org/fhir/R4B/datatypes.html#HumanName#HumanName.family">family</a>" : "Shaw",
+      "<a href="http://hl7.org/fhir/R4B/datatypes.html#HumanName#HumanName.given">given</a>" : [
+        "Amy",
+        "V."
+      ],
+      "<a href="http://hl7.org/fhir/R4B/datatypes.html#HumanName#HumanName.period">period</a>" : {
+        "<a href="http://hl7.org/fhir/R4B/datatypes.html#Period#Period.start">start</a>" : "2016-12-06",
+        "<a href="http://hl7.org/fhir/R4B/datatypes.html#Period#Period.end">end</a>" : "2020-07-22"
+      }
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4B/datatypes.html#HumanName#HumanName.family">family</a>" : "Baxter",
+      "<a href="http://hl7.org/fhir/R4B/datatypes.html#HumanName#HumanName.given">given</a>" : [
+        "Amy",
+        "V."
+      ],
+      "<a href="http://hl7.org/fhir/R4B/datatypes.html#HumanName#HumanName.suffix">suffix</a>" : [
+        "PharmD"
+      ],
+      "<a href="http://hl7.org/fhir/R4B/datatypes.html#HumanName#HumanName.period">period</a>" : {
+        "<a href="http://hl7.org/fhir/R4B/datatypes.html#Period#Period.start">start</a>" : "2020-07-22"
+      }
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R4B/patient.html#Patient.telecom">telecom</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4B/datatypes.html#ContactPoint#ContactPoint.system">system</a>" : "phone",
+      "<a href="http://hl7.org/fhir/R4B/datatypes.html#ContactPoint#ContactPoint.value">value</a>" : "555-555-5555",
+      "<a href="http://hl7.org/fhir/R4B/datatypes.html#ContactPoint#ContactPoint.use">use</a>" : "home"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4B/datatypes.html#ContactPoint#ContactPoint.system">system</a>" : "email",
+      "<a href="http://hl7.org/fhir/R4B/datatypes.html#ContactPoint#ContactPoint.value">value</a>" : "amy.shaw@example.com"
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R4B/patient.html#Patient.gender">gender</a>" : "female",
+  "<a href="http://hl7.org/fhir/R4B/patient.html#Patient.birthDate">birthDate</a>" : "1987-02-20",
+  "<a href="http://hl7.org/fhir/R4B/patient.html#Patient.deceased[x]">deceasedBoolean</a>" : true,
+  "<a href="http://hl7.org/fhir/R4B/patient.html#Patient.address">address</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4B/datatypes.html#Address#Address.use">use</a>" : "old",
+      "<a href="http://hl7.org/fhir/R4B/datatypes.html#Address#Address.line">line</a>" : [
+        "49 MEADOW ST"
+      ],
+      "<a href="http://hl7.org/fhir/R4B/datatypes.html#Address#Address.city">city</a>" : "MOUNDS",
+      "<a href="http://hl7.org/fhir/R4B/datatypes.html#Address#Address.state">state</a>" : "OK",
+      "<a href="http://hl7.org/fhir/R4B/datatypes.html#Address#Address.postalCode">postalCode</a>" : "74047",
+      "<a href="http://hl7.org/fhir/R4B/datatypes.html#Address#Address.country">country</a>" : "US",
+      "<a href="http://hl7.org/fhir/R4B/datatypes.html#Address#Address.period">period</a>" : {
+        "<a href="http://hl7.org/fhir/R4B/datatypes.html#Period#Period.start">start</a>" : "2016-12-06",
+        "<a href="http://hl7.org/fhir/R4B/datatypes.html#Period#Period.end">end</a>" : "2020-07-22"
+      }
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4B/datatypes.html#Address#Address.line">line</a>" : [
+        "183 MOUNTAIN VIEW ST"
+      ],
+      "<a href="http://hl7.org/fhir/R4B/datatypes.html#Address#Address.city">city</a>" : "MOUNDS",
+      "<a href="http://hl7.org/fhir/R4B/datatypes.html#Address#Address.state">state</a>" : "OK",
+      "<a href="http://hl7.org/fhir/R4B/datatypes.html#Address#Address.postalCode">postalCode</a>" : "74048",
+      "<a href="http://hl7.org/fhir/R4B/datatypes.html#Address#Address.country">country</a>" : "US",
+      "<a href="http://hl7.org/fhir/R4B/datatypes.html#Address#Address.period">period</a>" : {
+        "<a href="http://hl7.org/fhir/R4B/datatypes.html#Period#Period.start">start</a>" : "2020-07-22"
+      }
+    }
+  ]
+}</code></pre>
+{% endraw %}
